@@ -1,0 +1,132 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+
+<https://nago.nl/archief/2>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/23>, <https://nago.nl/publicatie/24> .
+
+<https://nago.nl/publicatie/23> a bf:Instance .
+<https://nago.nl/publicatie/24> a bf:Instance .
+<https://nago.nl/archief/3>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/6>, <https://nago.nl/publicatie/23> .
+
+<https://nago.nl/publicatie/6> a bf:Instance .
+<https://nago.nl/archief/4>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/8>, <https://nago.nl/publicatie/32> .
+
+<https://nago.nl/publicatie/8> a bf:Instance .
+<https://nago.nl/publicatie/32> a bf:Instance .
+<https://nago.nl/archief/5>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/34>, <https://nago.nl/publicatie/43> .
+
+<https://nago.nl/publicatie/34> a bf:Instance .
+<https://nago.nl/publicatie/43> a bf:Instance .
+<https://nago.nl/archief/6>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/25>, <https://nago.nl/publicatie/26> .
+
+<https://nago.nl/publicatie/25> a bf:Instance .
+<https://nago.nl/publicatie/26> a bf:Instance .
+<https://nago.nl/archief/7>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/30> .
+
+<https://nago.nl/publicatie/30> a bf:Instance .
+<https://nago.nl/archief/10>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/47> .
+
+<https://nago.nl/publicatie/47> a bf:Instance .
+<https://nago.nl/archief/12>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/6>, <https://nago.nl/publicatie/9>, <https://nago.nl/publicatie/10>, <https://nago.nl/publicatie/11>, <https://nago.nl/publicatie/12>, <https://nago.nl/publicatie/13>, <https://nago.nl/publicatie/14>, <https://nago.nl/publicatie/15>, <https://nago.nl/publicatie/16>, <https://nago.nl/publicatie/17>, <https://nago.nl/publicatie/18>, <https://nago.nl/publicatie/19>, <https://nago.nl/publicatie/44>, <https://nago.nl/publicatie/71> .
+
+<https://nago.nl/publicatie/9> a bf:Instance .
+<https://nago.nl/publicatie/10> a bf:Instance .
+<https://nago.nl/publicatie/11> a bf:Instance .
+<https://nago.nl/publicatie/12> a bf:Instance .
+<https://nago.nl/publicatie/13> a bf:Instance .
+<https://nago.nl/publicatie/14> a bf:Instance .
+<https://nago.nl/publicatie/15> a bf:Instance .
+<https://nago.nl/publicatie/16> a bf:Instance .
+<https://nago.nl/publicatie/17> a bf:Instance .
+<https://nago.nl/publicatie/18> a bf:Instance .
+<https://nago.nl/publicatie/19> a bf:Instance .
+<https://nago.nl/publicatie/44> a bf:Instance .
+<https://nago.nl/publicatie/71> a bf:Instance .
+<https://nago.nl/archief/13>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/9>, <https://nago.nl/publicatie/10>, <https://nago.nl/publicatie/16>, <https://nago.nl/publicatie/50>, <https://nago.nl/publicatie/52>, <https://nago.nl/publicatie/65> .
+
+<https://nago.nl/publicatie/50> a bf:Instance .
+<https://nago.nl/publicatie/52> a bf:Instance .
+<https://nago.nl/publicatie/65> a bf:Instance .
+<https://nago.nl/archief/15>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/56>, <https://nago.nl/publicatie/57>, <https://nago.nl/publicatie/73> .
+
+<https://nago.nl/publicatie/56> a bf:Instance .
+<https://nago.nl/publicatie/57> a bf:Instance .
+<https://nago.nl/publicatie/73> a bf:Instance .
+<https://nago.nl/archief/17>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/6>, <https://nago.nl/publicatie/24>, <https://nago.nl/publicatie/31> .
+
+<https://nago.nl/publicatie/31> a bf:Instance .
+<https://nago.nl/archief/19>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/33>, <https://nago.nl/publicatie/34> .
+
+<https://nago.nl/publicatie/33> a bf:Instance .
+<https://nago.nl/archief/20>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/6>, <https://nago.nl/publicatie/18>, <https://nago.nl/publicatie/59>, <https://nago.nl/publicatie/60>, <https://nago.nl/publicatie/61> .
+
+<https://nago.nl/publicatie/59> a bf:Instance .
+<https://nago.nl/publicatie/60> a bf:Instance .
+<https://nago.nl/publicatie/61> a bf:Instance .
+<https://nago.nl/archief/21>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/17>, <https://nago.nl/publicatie/19>, <https://nago.nl/publicatie/36>, <https://nago.nl/publicatie/37> .
+
+<https://nago.nl/publicatie/36> a bf:Instance .
+<https://nago.nl/publicatie/37> a bf:Instance .
+<https://nago.nl/archief/22>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/15> .
+
+<https://nago.nl/archief/23>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/24>, <https://nago.nl/publicatie/44>, <https://nago.nl/publicatie/45> .
+
+<https://nago.nl/publicatie/45> a bf:Instance .
+<https://nago.nl/archief/24>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/29>, <https://nago.nl/publicatie/35>, <https://nago.nl/publicatie/41>, <https://nago.nl/publicatie/66>, <https://nago.nl/publicatie/67>, <https://nago.nl/publicatie/68>, <https://nago.nl/publicatie/69>, <https://nago.nl/publicatie/70> .
+
+<https://nago.nl/publicatie/29> a bf:Instance .
+<https://nago.nl/publicatie/35> a bf:Instance .
+<https://nago.nl/publicatie/41> a bf:Instance .
+<https://nago.nl/publicatie/66> a bf:Instance .
+<https://nago.nl/publicatie/67> a bf:Instance .
+<https://nago.nl/publicatie/68> a bf:Instance .
+<https://nago.nl/publicatie/69> a bf:Instance .
+<https://nago.nl/publicatie/70> a bf:Instance .
+<https://nago.nl/archief/28>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/17>, <https://nago.nl/publicatie/19>, <https://nago.nl/publicatie/36>, <https://nago.nl/publicatie/37> .
+
+<https://nago.nl/archief/38>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/24>, <https://nago.nl/publicatie/30>, <https://nago.nl/publicatie/44>, <https://nago.nl/publicatie/47> .
+
+<https://nago.nl/archief/41>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/80>, <https://nago.nl/publicatie/82> .
+
+<https://nago.nl/publicatie/80> a bf:Instance .
+<https://nago.nl/publicatie/82> a bf:Instance .

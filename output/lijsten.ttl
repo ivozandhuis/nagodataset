@@ -1,0 +1,4120 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://nago.nl/lijsten/1>
+  a skos:Concept ;
+  rdfs:label "soort object" ;
+  skos:prefLabel "soort object" .
+
+<https://nago.nl/lijsten/2>
+  a skos:Concept ;
+  rdfs:label "type titel" ;
+  skos:prefLabel "type titel" .
+
+<https://nago.nl/lijsten/3>
+  a skos:Concept ;
+  rdfs:label "type vervaardiging" ;
+  skos:prefLabel "type vervaardiging" .
+
+<https://nago.nl/lijsten/4>
+  a skos:Concept ;
+  rdfs:label "plaats" ;
+  skos:prefLabel "plaats" .
+
+<https://nago.nl/lijsten/5>
+  a skos:Concept ;
+  rdfs:label "techniek" ;
+  skos:prefLabel "techniek" .
+
+<https://nago.nl/lijsten/6>
+  a skos:Concept ;
+  rdfs:label "materiaal" ;
+  skos:prefLabel "materiaal" .
+
+<https://nago.nl/lijsten/7>
+  a skos:Concept ;
+  rdfs:label "eenheden dimensies" ;
+  skos:prefLabel "eenheden dimensies" .
+
+<https://nago.nl/lijsten/8>
+  a skos:Concept ;
+  rdfs:label "fysieke staat" ;
+  skos:prefLabel "fysieke staat" .
+
+<https://nago.nl/lijsten/9>
+  a skos:Concept ;
+  rdfs:label "uiterlijke staat" ;
+  skos:prefLabel "uiterlijke staat" .
+
+<https://nago.nl/lijsten/10>
+  a skos:Concept ;
+  rdfs:label "soort instelling" ;
+  skos:prefLabel "soort instelling" .
+
+<https://nago.nl/lijsten/11>
+  a skos:Concept ;
+  rdfs:label "onderscheiding" ;
+  skos:prefLabel "onderscheiding" .
+
+<https://nago.nl/lijsten/12>
+  a skos:Concept ;
+  rdfs:label "soort doos" ;
+  skos:prefLabel "soort doos" .
+
+<https://nago.nl/lijsten/25>
+  a skos:Concept ;
+  rdfs:label "druk" ;
+  skos:prefLabel "druk" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/27>
+  a skos:Concept ;
+  rdfs:label "ontwerp" ;
+  skos:prefLabel "ontwerp" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/35>
+  a skos:Concept ;
+  rdfs:label "afgelezen" ;
+  skos:prefLabel "afgelezen" ;
+  skos:broader <https://nago.nl/lijsten/2> .
+
+<https://nago.nl/lijsten/53>
+  a skos:Concept ;
+  rdfs:label "mm" ;
+  skos:prefLabel "mm" ;
+  skos:broader <https://nago.nl/lijsten/7> .
+
+<https://nago.nl/lijsten/54>
+  a skos:Concept ;
+  rdfs:label "cm" ;
+  skos:prefLabel "cm" ;
+  skos:broader <https://nago.nl/lijsten/7> .
+
+<https://nago.nl/lijsten/65>
+  a skos:Concept ;
+  rdfs:label "drukkerij" ;
+  skos:prefLabel "drukkerij" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/80>
+  a skos:Concept ;
+  rdfs:label "soort publicatie" ;
+  skos:prefLabel "soort publicatie" .
+
+<https://nago.nl/lijsten/81>
+  a skos:Concept ;
+  rdfs:label "boek" ;
+  skos:prefLabel "boek" ;
+  skos:broader <https://nago.nl/lijsten/80> .
+
+<https://nago.nl/lijsten/83>
+  a skos:Concept ;
+  rdfs:label "speciale uitgave" ;
+  skos:prefLabel "speciale uitgave" ;
+  skos:broader <https://nago.nl/lijsten/80> .
+
+<https://nago.nl/lijsten/84>
+  a skos:Concept ;
+  rdfs:label "mede-vervaardiging" ;
+  skos:prefLabel "mede-vervaardiging" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/85>
+  a skos:Concept ;
+  rdfs:label "uitgave" ;
+  skos:prefLabel "uitgave" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/86>
+  a skos:Concept ;
+  rdfs:label "uitgeverij" ;
+  skos:prefLabel "uitgeverij" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/87>
+  a skos:Concept ;
+  rdfs:label "brochure" ;
+  skos:prefLabel "brochure" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/88>
+  a skos:Concept ;
+  rdfs:label "origineel" ;
+  skos:prefLabel "origineel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/89>
+  a skos:Concept ;
+  rdfs:label "briefpapier en enveloppen" ;
+  skos:prefLabel "briefpapier en enveloppen" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/90>
+  a skos:Concept ;
+  rdfs:label "logo" ;
+  skos:prefLabel "logo" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/91>
+  a skos:Concept ;
+  rdfs:label "advertentie" ;
+  skos:prefLabel "advertentie" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/92>
+  a skos:Concept ;
+  rdfs:label "productverpakking" ;
+  skos:prefLabel "productverpakking" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/93>
+  a skos:Concept ;
+  rdfs:label "omslag" ;
+  skos:prefLabel "omslag" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/94>
+  a skos:Concept ;
+  rdfs:label "krant" ;
+  skos:prefLabel "krant" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/95>
+  a skos:Concept ;
+  rdfs:label "zegel" ;
+  skos:prefLabel "zegel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/96>
+  a skos:Concept ;
+  rdfs:label "huisorgaan" ;
+  skos:prefLabel "huisorgaan" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/97>
+  a skos:Concept ;
+  rdfs:label "affiche" ;
+  skos:prefLabel "affiche" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/98>
+  a skos:Concept ;
+  rdfs:label "catalogus" ;
+  skos:prefLabel "catalogus" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/99>
+  a skos:Concept ;
+  rdfs:label "boek" ;
+  skos:prefLabel "boek" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/100>
+  a skos:Concept ;
+  rdfs:label "agenda" ;
+  skos:prefLabel "agenda" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/101>
+  a skos:Concept ;
+  rdfs:label "folder" ;
+  skos:prefLabel "folder" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/102>
+  a skos:Concept ;
+  rdfs:label "programma" ;
+  skos:prefLabel "programma" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/103>
+  a skos:Concept ;
+  rdfs:label "entreebewijs" ;
+  skos:prefLabel "entreebewijs" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/104>
+  a skos:Concept ;
+  rdfs:label "kaart" ;
+  skos:prefLabel "kaart" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/105>
+  a skos:Concept ;
+  rdfs:label "uitnodiging" ;
+  skos:prefLabel "uitnodiging" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/106>
+  a skos:Concept ;
+  rdfs:label "rapport" ;
+  skos:prefLabel "rapport" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/107>
+  a skos:Concept ;
+  rdfs:label "huisstijlprogramma" ;
+  skos:prefLabel "huisstijlprogramma" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/108>
+  a skos:Concept ;
+  rdfs:label "prospectus" ;
+  skos:prefLabel "prospectus" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/109>
+  a skos:Concept ;
+  rdfs:label "tijdschrift" ;
+  skos:prefLabel "tijdschrift" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/110>
+  a skos:Concept ;
+  rdfs:label "etiket" ;
+  skos:prefLabel "etiket" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/111>
+  a skos:Concept ;
+  rdfs:label "wenskaart" ;
+  skos:prefLabel "wenskaart" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/112>
+  a skos:Concept ;
+  rdfs:label "jaarverslag" ;
+  skos:prefLabel "jaarverslag" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/113>
+  a skos:Concept ;
+  rdfs:label "platenhoes" ;
+  skos:prefLabel "platenhoes" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/114>
+  a skos:Concept ;
+  rdfs:label "eerste-daguitgave" ;
+  skos:prefLabel "eerste-daguitgave" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/115>
+  a skos:Concept ;
+  rdfs:label "briefkaart" ;
+  skos:prefLabel "briefkaart" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/116>
+  a skos:Concept ;
+  rdfs:label "postzegel" ;
+  skos:prefLabel "postzegel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/118>
+  a skos:Concept ;
+  rdfs:label "map" ;
+  skos:prefLabel "map" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/119>
+  a skos:Concept ;
+  rdfs:label "vlag" ;
+  skos:prefLabel "vlag" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/120>
+  a skos:Concept ;
+  rdfs:label "display" ;
+  skos:prefLabel "display" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/121>
+  a skos:Concept ;
+  rdfs:label "handleiding" ;
+  skos:prefLabel "handleiding" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/122>
+  a skos:Concept ;
+  rdfs:label "illustratie" ;
+  skos:prefLabel "illustratie" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/123>
+  a skos:Concept ;
+  rdfs:label "formulier" ;
+  skos:prefLabel "formulier" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/124>
+  a skos:Concept ;
+  rdfs:label "geboortekaart" ;
+  skos:prefLabel "geboortekaart" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/125>
+  a skos:Concept ;
+  rdfs:label "ticket" ;
+  skos:prefLabel "ticket" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/126>
+  a skos:Concept ;
+  rdfs:label "belettering" ;
+  skos:prefLabel "belettering" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/127>
+  a skos:Concept ;
+  rdfs:label "gedenkboek" ;
+  skos:prefLabel "gedenkboek" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/128>
+  a skos:Concept ;
+  rdfs:label "product" ;
+  skos:prefLabel "product" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/129>
+  a skos:Concept ;
+  rdfs:label "certificaat" ;
+  skos:prefLabel "certificaat" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/130>
+  a skos:Concept ;
+  rdfs:label "kalender" ;
+  skos:prefLabel "kalender" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/131>
+  a skos:Concept ;
+  rdfs:label "papier" ;
+  skos:prefLabel "papier" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/132>
+  a skos:Concept ;
+  rdfs:label "offset" ;
+  skos:prefLabel "offset" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/133>
+  a skos:Concept ;
+  rdfs:label "geniet" ;
+  skos:prefLabel "geniet" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/134>
+  a skos:Concept ;
+  rdfs:label "matig" ;
+  skos:prefLabel "matig" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/135>
+  a skos:Concept ;
+  rdfs:label "goed" ;
+  skos:prefLabel "goed" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/136>
+  a skos:Concept ;
+  rdfs:label "karton" ;
+  skos:prefLabel "karton" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/137>
+  a skos:Concept ;
+  rdfs:label "fotografisch materiaal" ;
+  skos:prefLabel "fotografisch materiaal" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/138>
+  a skos:Concept ;
+  rdfs:label "inkttekening" ;
+  skos:prefLabel "inkttekening" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/139>
+  a skos:Concept ;
+  rdfs:label "pentekening" ;
+  skos:prefLabel "pentekening" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/140>
+  a skos:Concept ;
+  rdfs:label "potloodtekening" ;
+  skos:prefLabel "potloodtekening" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/141>
+  a skos:Concept ;
+  rdfs:label "zeefdruk" ;
+  skos:prefLabel "zeefdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/145>
+  a skos:Concept ;
+  rdfs:label "hoogdruk" ;
+  skos:prefLabel "hoogdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/147>
+  a skos:Concept ;
+  rdfs:label "geschilderd" ;
+  skos:prefLabel "geschilderd" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/148>
+  a skos:Concept ;
+  rdfs:label "plastic" ;
+  skos:prefLabel "plastic" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/150>
+  a skos:Concept ;
+  rdfs:label "fotokopie" ;
+  skos:prefLabel "fotokopie" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/151>
+  a skos:Concept ;
+  rdfs:label "calqueerpapier" ;
+  skos:prefLabel "calqueerpapier" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/153>
+  a skos:Concept ;
+  rdfs:label "diepdruk" ;
+  skos:prefLabel "diepdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/155>
+  a skos:Concept ;
+  rdfs:label "foto" ;
+  skos:prefLabel "foto" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/156>
+  a skos:Concept ;
+  rdfs:label "gevouwen" ;
+  skos:prefLabel "gevouwen" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/157>
+  a skos:Concept ;
+  rdfs:label "slecht" ;
+  skos:prefLabel "slecht" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/158>
+  a skos:Concept ;
+  rdfs:label "genaaid" ;
+  skos:prefLabel "genaaid" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/159>
+  a skos:Concept ;
+  rdfs:label "metalen spiraal" ;
+  skos:prefLabel "metalen spiraal" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/160>
+  a skos:Concept ;
+  rdfs:label "gelijmd" ;
+  skos:prefLabel "gelijmd" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/161>
+  a skos:Concept ;
+  rdfs:label "gebonden in linnen band" ;
+  skos:prefLabel "gebonden in linnen band" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/162>
+  a skos:Concept ;
+  rdfs:label "boekdruk" ;
+  skos:prefLabel "boekdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/163>
+  a skos:Concept ;
+  rdfs:label "losbladig" ;
+  skos:prefLabel "losbladig" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/164>
+  a skos:Concept ;
+  rdfs:label "spiraal" ;
+  skos:prefLabel "spiraal" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/165>
+  a skos:Concept ;
+  rdfs:label "gebonden" ;
+  skos:prefLabel "gebonden" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/167>
+  a skos:Concept ;
+  rdfs:label "textielmateriaal" ;
+  skos:prefLabel "textielmateriaal" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/168>
+  a skos:Concept ;
+  rdfs:label "gelijmd in omslag" ;
+  skos:prefLabel "gelijmd in omslag" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/172>
+  a skos:Concept ;
+  rdfs:label "blinddruk" ;
+  skos:prefLabel "blinddruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/173>
+  a skos:Concept ;
+  rdfs:label "genaaid in linnen band" ;
+  skos:prefLabel "genaaid in linnen band" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/174>
+  a skos:Concept ;
+  rdfs:label "gelijmd in papieren band" ;
+  skos:prefLabel "gelijmd in papieren band" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/175>
+  a skos:Concept ;
+  rdfs:label "fotografie" ;
+  skos:prefLabel "fotografie" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/176>
+  a skos:Concept ;
+  rdfs:label "onbekend" ;
+  skos:prefLabel "onbekend" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/177>
+  a skos:Concept ;
+  rdfs:label "glas" ;
+  skos:prefLabel "glas" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/179>
+  a skos:Concept ;
+  rdfs:label "gerestaureerd" ;
+  skos:prefLabel "gerestaureerd" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/180>
+  a skos:Concept ;
+  rdfs:label "metaal" ;
+  skos:prefLabel "metaal" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/181>
+  a skos:Concept ;
+  rdfs:label "trouwkaart" ;
+  skos:prefLabel "trouwkaart" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/182>
+  a skos:Concept ;
+  rdfs:label "label" ;
+  skos:prefLabel "label" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/183>
+  a skos:Concept ;
+  rdfs:label "digitale print" ;
+  skos:prefLabel "digitale print" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/184>
+  a skos:Concept ;
+  rdfs:label "gebrocheerd in gelijmd omslag" ;
+  skos:prefLabel "gebrocheerd in gelijmd omslag" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/185>
+  a skos:Concept ;
+  rdfs:label "genaaid in kartonnen band" ;
+  skos:prefLabel "genaaid in kartonnen band" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/186>
+  a skos:Concept ;
+  rdfs:label "genaaid in papieren band" ;
+  skos:prefLabel "genaaid in papieren band" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/187>
+  a skos:Concept ;
+  rdfs:label "spiraalband" ;
+  skos:prefLabel "spiraalband" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/188>
+  a skos:Concept ;
+  rdfs:label "schets" ;
+  skos:prefLabel "schets" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/189>
+  a skos:Concept ;
+  rdfs:label "diverse" ;
+  skos:prefLabel "diverse" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/190>
+  a skos:Concept ;
+  rdfs:label "rotatie diepdruk" ;
+  skos:prefLabel "rotatie diepdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/191>
+  a skos:Concept ;
+  rdfs:label "verschillend" ;
+  skos:prefLabel "verschillend" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/192>
+  a skos:Concept ;
+  rdfs:label "proefdruk" ;
+  skos:prefLabel "proefdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/193>
+  a skos:Concept ;
+  rdfs:label "versschillend" ;
+  skos:prefLabel "versschillend" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/194>
+  a skos:Concept ;
+  rdfs:label "ontwerp" ;
+  skos:prefLabel "ontwerp" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/195>
+  a skos:Concept ;
+  rdfs:label "gouache" ;
+  skos:prefLabel "gouache" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/196>
+  a skos:Concept ;
+  rdfs:label "rotatie offset" ;
+  skos:prefLabel "rotatie offset" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/197>
+  a skos:Concept ;
+  rdfs:label "klemband" ;
+  skos:prefLabel "klemband" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/198>
+  a skos:Concept ;
+  rdfs:label "viltstifttekening" ;
+  skos:prefLabel "viltstifttekening" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/199>
+  a skos:Concept ;
+  rdfs:label "tekening" ;
+  skos:prefLabel "tekening" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/200>
+  a skos:Concept ;
+  rdfs:label "stempel" ;
+  skos:prefLabel "stempel" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/203>
+  a skos:Concept ;
+  rdfs:label "lithografie" ;
+  skos:prefLabel "lithografie" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/205>
+  a skos:Concept ;
+  rdfs:label "briefpapier" ;
+  skos:prefLabel "briefpapier" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/208>
+  a skos:Concept ;
+  rdfs:label "waardepapier" ;
+  skos:prefLabel "waardepapier" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/209>
+  a skos:Concept ;
+  rdfs:label "zakje" ;
+  skos:prefLabel "zakje" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/210>
+  a skos:Concept ;
+  rdfs:label "ex libris" ;
+  skos:prefLabel "ex libris" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/214>
+  a skos:Concept ;
+  rdfs:label "geringd" ;
+  skos:prefLabel "geringd" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/219>
+  a skos:Concept ;
+  rdfs:label "tas" ;
+  skos:prefLabel "tas" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/221>
+  a skos:Concept ;
+  rdfs:label "oorkonde" ;
+  skos:prefLabel "oorkonde" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/222>
+  a skos:Concept ;
+  rdfs:label "cd-hoes" ;
+  skos:prefLabel "cd-hoes" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/223>
+  a skos:Concept ;
+  rdfs:label "bordspel" ;
+  skos:prefLabel "bordspel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/227>
+  a skos:Concept ;
+  rdfs:label "linnen" ;
+  skos:prefLabel "linnen" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/228>
+  a skos:Concept ;
+  rdfs:label "houtvrij papier" ;
+  skos:prefLabel "houtvrij papier" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/230>
+  a skos:Concept ;
+  rdfs:label "perspex" ;
+  skos:prefLabel "perspex" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/231>
+  a skos:Concept ;
+  rdfs:label "computeruitdraai" ;
+  skos:prefLabel "computeruitdraai" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/235>
+  a skos:Concept ;
+  rdfs:label "katoen" ;
+  skos:prefLabel "katoen" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/237>
+  a skos:Concept ;
+  rdfs:label "hout" ;
+  skos:prefLabel "hout" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/239>
+  a skos:Concept ;
+  rdfs:label "diversen" ;
+  skos:prefLabel "diversen" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/242>
+  a skos:Concept ;
+  rdfs:label "kunststof" ;
+  skos:prefLabel "kunststof" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/243>
+  a skos:Concept ;
+  rdfs:label "vinyl" ;
+  skos:prefLabel "vinyl" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/244>
+  a skos:Concept ;
+  rdfs:label "polyethyleen" ;
+  skos:prefLabel "polyethyleen" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/245>
+  a skos:Concept ;
+  rdfs:label "divers" ;
+  skos:prefLabel "divers" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/246>
+  a skos:Concept ;
+  rdfs:label "letterproef" ;
+  skos:prefLabel "letterproef" ;
+  skos:broader <https://nago.nl/lijsten/1> ;
+  skos:note "A&amp;AT: 201018" .
+
+<https://nago.nl/lijsten/247>
+  a skos:Concept ;
+  rdfs:label "periodiek" ;
+  skos:prefLabel "periodiek" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/248>
+  a skos:Concept ;
+  rdfs:label "sticker" ;
+  skos:prefLabel "sticker" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/249>
+  a skos:Concept ;
+  rdfs:label "wikkel" ;
+  skos:prefLabel "wikkel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/250>
+  a skos:Concept ;
+  rdfs:label "foliedruk" ;
+  skos:prefLabel "foliedruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/253>
+  a skos:Concept ;
+  rdfs:label "geperforeerd" ;
+  skos:prefLabel "geperforeerd" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/254>
+  a skos:Concept ;
+  rdfs:label "folie" ;
+  skos:prefLabel "folie" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/256>
+  a skos:Concept ;
+  rdfs:label "snelhechter" ;
+  skos:prefLabel "snelhechter" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/258>
+  a skos:Concept ;
+  rdfs:label "" ;
+  skos:prefLabel "" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/260>
+  a skos:Concept ;
+  rdfs:label "aankondiging" ;
+  skos:prefLabel "aankondiging" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/263>
+  a skos:Concept ;
+  rdfs:label "geplakt" ;
+  skos:prefLabel "geplakt" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/265>
+  a skos:Concept ;
+  rdfs:label "lijm" ;
+  skos:prefLabel "lijm" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/266>
+  a skos:Concept ;
+  rdfs:label "gelijmd dmv papieren strip" ;
+  skos:prefLabel "gelijmd dmv papieren strip" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/272>
+  a skos:Concept ;
+  rdfs:label "elastiek" ;
+  skos:prefLabel "elastiek" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/273>
+  a skos:Concept ;
+  rdfs:label "textieldruk" ;
+  skos:prefLabel "textieldruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/274>
+  a skos:Concept ;
+  rdfs:label "rubber" ;
+  skos:prefLabel "rubber" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/278>
+  a skos:Concept ;
+  rdfs:label "ringband" ;
+  skos:prefLabel "ringband" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/281>
+  a skos:Concept ;
+  rdfs:label "gelumbeckt" ;
+  skos:prefLabel "gelumbeckt" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/282>
+  a skos:Concept ;
+  rdfs:label "Goed, één exemplaar licht beschadigd" ;
+  skos:prefLabel "Goed, één exemplaar licht beschadigd" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/283>
+  a skos:Concept ;
+  rdfs:label "Matig, reep karton aan achterkant geplakt." ;
+  skos:prefLabel "Matig, reep karton aan achterkant geplakt." ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/284>
+  a skos:Concept ;
+  rdfs:label "redlijk" ;
+  skos:prefLabel "redlijk" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/285>
+  a skos:Concept ;
+  rdfs:label "matig" ;
+  skos:prefLabel "matig" ;
+  skos:broader <https://nago.nl/lijsten/8> .
+
+<https://nago.nl/lijsten/286>
+  a skos:Concept ;
+  rdfs:label "goed" ;
+  skos:prefLabel "goed" ;
+  skos:broader <https://nago.nl/lijsten/8> .
+
+<https://nago.nl/lijsten/287>
+  a skos:Concept ;
+  rdfs:label "slecht" ;
+  skos:prefLabel "slecht" ;
+  skos:broader <https://nago.nl/lijsten/8> .
+
+<https://nago.nl/lijsten/288>
+  a skos:Concept ;
+  rdfs:label "Amsterdam" ;
+  skos:prefLabel "Amsterdam" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/289>
+  a skos:Concept ;
+  rdfs:label "Den Haag" ;
+  skos:prefLabel "Den Haag" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/290>
+  a skos:Concept ;
+  rdfs:label "IJsselstein" ;
+  skos:prefLabel "IJsselstein" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/291>
+  a skos:Concept ;
+  rdfs:label "De Hoef" ;
+  skos:prefLabel "De Hoef" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/292>
+  a skos:Concept ;
+  rdfs:label "Enschede" ;
+  skos:prefLabel "Enschede" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/293>
+  a skos:Concept ;
+  rdfs:label "Rotterdam" ;
+  skos:prefLabel "Rotterdam" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/294>
+  a skos:Concept ;
+  rdfs:label "Utrecht" ;
+  skos:prefLabel "Utrecht" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/295>
+  a skos:Concept ;
+  rdfs:label "Hilversum" ;
+  skos:prefLabel "Hilversum" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/296>
+  a skos:Concept ;
+  rdfs:label "Fürth" ;
+  skos:prefLabel "Fürth" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/297>
+  a skos:Concept ;
+  rdfs:label "Weesp" ;
+  skos:prefLabel "Weesp" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/298>
+  a skos:Concept ;
+  rdfs:label "H.N. Werkmanprijs" ;
+  skos:prefLabel "H.N. Werkmanprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/299>
+  a skos:Concept ;
+  rdfs:label "G.J. Thiemefonds" ;
+  skos:prefLabel "G.J. Thiemefonds" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/300>
+  a skos:Concept ;
+  rdfs:label "Best Verzorgde Boek" ;
+  skos:prefLabel "Best Verzorgde Boek" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/301>
+  a skos:Concept ;
+  rdfs:label "David Roëllprijs" ;
+  skos:prefLabel "David Roëllprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/302>
+  a skos:Concept ;
+  rdfs:label "F. Duwaerprijs" ;
+  skos:prefLabel "F. Duwaerprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/303>
+  a skos:Concept ;
+  rdfs:label "Oeuvreprijs, Stichting Fonds voor de Beeldende Kunsten Amsterdam" ;
+  skos:prefLabel "Oeuvreprijs, Stichting Fonds voor de Beeldende Kunsten Amsterdam" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/304>
+  a skos:Concept ;
+  rdfs:label "Afficheprijs, Genootschap voor de Reclame" ;
+  skos:prefLabel "Afficheprijs, Genootschap voor de Reclame" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/305>
+  a skos:Concept ;
+  rdfs:label "Afficheprijs, Benelux Affiche Tentoonstelling" ;
+  skos:prefLabel "Afficheprijs, Benelux Affiche Tentoonstelling" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/306>
+  a skos:Concept ;
+  rdfs:label "Laurens Jansz Costerprijs" ;
+  skos:prefLabel "Laurens Jansz Costerprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/307>
+  a skos:Concept ;
+  rdfs:label "Theaterafficheprijs" ;
+  skos:prefLabel "Theaterafficheprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/308>
+  a skos:Concept ;
+  rdfs:label "Golden Globe, Art Directors Club Nederland" ;
+  skos:prefLabel "Golden Globe, Art Directors Club Nederland" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/309>
+  a skos:Concept ;
+  rdfs:label "Ridder in de Orde van Oranje Nassau" ;
+  skos:prefLabel "Ridder in de Orde van Oranje Nassau" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/311>
+  a skos:Concept ;
+  rdfs:label "Advertentie-jaarprijs, Genootschap voor de Reclame" ;
+  skos:prefLabel "Advertentie-jaarprijs, Genootschap voor de Reclame" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/312>
+  a skos:Concept ;
+  rdfs:label "Rizzoliprijs" ;
+  skos:prefLabel "Rizzoliprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/313>
+  a skos:Concept ;
+  rdfs:label "Bührmann-Ubbens papierprijs" ;
+  skos:prefLabel "Bührmann-Ubbens papierprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/314>
+  a skos:Concept ;
+  rdfs:label "ontwerpbureau" ;
+  skos:prefLabel "ontwerpbureau" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/315>
+  a skos:Concept ;
+  rdfs:label "Eindhoven" ;
+  skos:prefLabel "Eindhoven" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/316>
+  a skos:Concept ;
+  rdfs:label "fotografie" ;
+  skos:prefLabel "fotografie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/317>
+  a skos:Concept ;
+  rdfs:label "illustratie" ;
+  skos:prefLabel "illustratie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/319>
+  a skos:Concept ;
+  rdfs:label "gemeentearchief" ;
+  skos:prefLabel "gemeentearchief" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/320>
+  a skos:Concept ;
+  rdfs:label "universiteitsbliotheek" ;
+  skos:prefLabel "universiteitsbliotheek" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/321>
+  a skos:Concept ;
+  rdfs:label "museum" ;
+  skos:prefLabel "museum" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/322>
+  a skos:Concept ;
+  rdfs:label "reclamebureau" ;
+  skos:prefLabel "reclamebureau" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/323>
+  a skos:Concept ;
+  rdfs:label "binderij" ;
+  skos:prefLabel "binderij" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/324>
+  a skos:Concept ;
+  rdfs:label "artikel in tijdschrift" ;
+  skos:prefLabel "artikel in tijdschrift" ;
+  skos:broader <https://nago.nl/lijsten/80> .
+
+<https://nago.nl/lijsten/325>
+  a skos:Concept ;
+  rdfs:label "artikel in krant" ;
+  skos:prefLabel "artikel in krant" ;
+  skos:broader <https://nago.nl/lijsten/80> .
+
+<https://nago.nl/lijsten/326>
+  a skos:Concept ;
+  rdfs:label "toegekend" ;
+  skos:prefLabel "toegekend" ;
+  skos:broader <https://nago.nl/lijsten/2> .
+
+<https://nago.nl/lijsten/327>
+  a skos:Concept ;
+  rdfs:label "overig" ;
+  skos:prefLabel "overig" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/328>
+  a skos:Concept ;
+  rdfs:label "gesneden" ;
+  skos:prefLabel "gesneden" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/329>
+  a skos:Concept ;
+  rdfs:label "tekst" ;
+  skos:prefLabel "tekst" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/330>
+  a skos:Concept ;
+  rdfs:label "art direction" ;
+  skos:prefLabel "art direction" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/331>
+  a skos:Concept ;
+  rdfs:label "plakband" ;
+  skos:prefLabel "plakband" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/332>
+  a skos:Concept ;
+  rdfs:label "concept" ;
+  skos:prefLabel "concept" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/333>
+  a skos:Concept ;
+  rdfs:label "lay-out" ;
+  skos:prefLabel "lay-out" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/334>
+  a skos:Concept ;
+  rdfs:label "typografie" ;
+  skos:prefLabel "typografie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/335>
+  a skos:Concept ;
+  rdfs:label "foto" ;
+  skos:prefLabel "foto" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/336>
+  a skos:Concept ;
+  rdfs:label "bewegwijzering" ;
+  skos:prefLabel "bewegwijzering" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/337>
+  a skos:Concept ;
+  rdfs:label "lettertype" ;
+  skos:prefLabel "lettertype" ;
+  skos:broader <https://nago.nl/lijsten/1> ;
+  skos:note "A&amp;AT" .
+
+<https://nago.nl/lijsten/341>
+  a skos:Concept ;
+  rdfs:label "maquette" ;
+  skos:prefLabel "maquette" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/342>
+  a skos:Concept ;
+  rdfs:label "archief" ;
+  skos:prefLabel "archief" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/343>
+  a skos:Concept ;
+  rdfs:label "samenstelling" ;
+  skos:prefLabel "samenstelling" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/346>
+  a skos:Concept ;
+  rdfs:label "coördinatie" ;
+  skos:prefLabel "coördinatie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/349>
+  a skos:Concept ;
+  rdfs:label "Alphen aan den Rijn" ;
+  skos:prefLabel "Alphen aan den Rijn" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/350>
+  a skos:Concept ;
+  rdfs:label "Nijmegen" ;
+  skos:prefLabel "Nijmegen" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/352>
+  a skos:Concept ;
+  rdfs:label "Wormer" ;
+  skos:prefLabel "Wormer" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/353>
+  a skos:Concept ;
+  rdfs:label "Onbekend" ;
+  skos:prefLabel "Onbekend" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/354>
+  a skos:Concept ;
+  rdfs:label "Amstelveen" ;
+  skos:prefLabel "Amstelveen" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/355>
+  a skos:Concept ;
+  rdfs:label "strooibiljet" ;
+  skos:prefLabel "strooibiljet" ;
+  skos:broader <https://nago.nl/lijsten/1> ;
+  skos:note "A&amp;AT: 27033" .
+
+<https://nago.nl/lijsten/356>
+  a skos:Concept ;
+  rdfs:label "insigne" ;
+  skos:prefLabel "insigne" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/357>
+  a skos:Concept ;
+  rdfs:label "meubel" ;
+  skos:prefLabel "meubel" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/358>
+  a skos:Concept ;
+  rdfs:label "klei" ;
+  skos:prefLabel "klei" ;
+  skos:broader <https://nago.nl/lijsten/6> ;
+  skos:note "A&amp;AT: 10439" .
+
+<https://nago.nl/lijsten/359>
+  a skos:Concept ;
+  rdfs:label "munt" ;
+  skos:prefLabel "munt" ;
+  skos:broader <https://nago.nl/lijsten/1> ;
+  skos:note "A&amp;AT: 37222" .
+
+<https://nago.nl/lijsten/360>
+  a skos:Concept ;
+  rdfs:label "galerie" ;
+  skos:prefLabel "galerie" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/371>
+  a skos:Concept ;
+  rdfs:label "Redelijk" ;
+  skos:prefLabel "Redelijk" ;
+  skos:broader <https://nago.nl/lijsten/9> .
+
+<https://nago.nl/lijsten/372>
+  a skos:Concept ;
+  rdfs:label "spiraalband kunststof" ;
+  skos:prefLabel "spiraalband kunststof" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/374>
+  a skos:Concept ;
+  rdfs:label "Typomundus 20/II" ;
+  skos:prefLabel "Typomundus 20/II" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/375>
+  a skos:Concept ;
+  rdfs:label "Biennale Brno (Tsjechoslowakije)" ;
+  skos:prefLabel "Biennale Brno (Tsjechoslowakije)" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/376>
+  a skos:Concept ;
+  rdfs:label "Kieler Woche international design competition" ;
+  skos:prefLabel "Kieler Woche international design competition" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/377>
+  a skos:Concept ;
+  rdfs:label "Biennale Ljubljana" ;
+  skos:prefLabel "Biennale Ljubljana" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/378>
+  a skos:Concept ;
+  rdfs:label "Grafische Cultuurprijs" ;
+  skos:prefLabel "Grafische Cultuurprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/379>
+  a skos:Concept ;
+  rdfs:label "Exempla '72, München" ;
+  skos:prefLabel "Exempla '72, München" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/380>
+  a skos:Concept ;
+  rdfs:label "Gouden noot voor verpakkingen" ;
+  skos:prefLabel "Gouden noot voor verpakkingen" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/381>
+  a skos:Concept ;
+  rdfs:label "50 Best verzorgde boeken van de wereld" ;
+  skos:prefLabel "50 Best verzorgde boeken van de wereld" ;
+  skos:broader <https://nago.nl/lijsten/11> .
+
+<https://nago.nl/lijsten/383>
+  a skos:Concept ;
+  rdfs:label "redactie" ;
+  skos:prefLabel "redactie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/385>
+  a skos:Concept ;
+  rdfs:label "Leiden" ;
+  skos:prefLabel "Leiden" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/386>
+  a skos:Concept ;
+  rdfs:label "Graficus Kalenderprijsvraag" ;
+  skos:prefLabel "Graficus Kalenderprijsvraag" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Ben Bos" .
+
+<https://nago.nl/lijsten/387>
+  a skos:Concept ;
+  rdfs:label "Novi Sad, Special Golden Forma" ;
+  skos:prefLabel "Novi Sad, Special Golden Forma" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Ben Bos" .
+
+<https://nago.nl/lijsten/388>
+  a skos:Concept ;
+  rdfs:label "ICT Antwerpen, World Logotype Design Award" ;
+  skos:prefLabel "ICT Antwerpen, World Logotype Design Award" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Ben Bos" .
+
+<https://nago.nl/lijsten/389>
+  a skos:Concept ;
+  rdfs:label "button" ;
+  skos:prefLabel "button" ;
+  skos:broader <https://nago.nl/lijsten/1> ;
+  skos:note "A&amp;AT 207332" .
+
+<https://nago.nl/lijsten/390>
+  a skos:Concept ;
+  rdfs:label "reliëfdruk" ;
+  skos:prefLabel "reliëfdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> ;
+  skos:note "Huib van Krimpen's Het Vergeetboekje" .
+
+<https://nago.nl/lijsten/391>
+  a skos:Concept ;
+  rdfs:label "thesaurus term" ;
+  skos:prefLabel "thesaurus term" .
+
+<https://nago.nl/lijsten/392>
+  a skos:Concept ;
+  rdfs:label "vlakdruk" ;
+  skos:prefLabel "vlakdruk" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/393>
+  a skos:Concept ;
+  rdfs:label "bindwerk" ;
+  skos:prefLabel "bindwerk" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/394>
+  a skos:Concept ;
+  rdfs:label "Zaandam" ;
+  skos:prefLabel "Zaandam" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/395>
+  a skos:Concept ;
+  rdfs:label "Amersfoort" ;
+  skos:prefLabel "Amersfoort" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/396>
+  a skos:Concept ;
+  rdfs:label "Deventer" ;
+  skos:prefLabel "Deventer" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/397>
+  a skos:Concept ;
+  rdfs:label "Den Bosch" ;
+  skos:prefLabel "Den Bosch" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/398>
+  a skos:Concept ;
+  rdfs:label "Providence, Rhode Island, USA" ;
+  skos:prefLabel "Providence, Rhode Island, USA" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/399>
+  a skos:Concept ;
+  rdfs:label "visitekaartje" ;
+  skos:prefLabel "visitekaartje" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/400>
+  a skos:Concept ;
+  rdfs:label "Groningen" ;
+  skos:prefLabel "Groningen" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/401>
+  a skos:Concept ;
+  rdfs:label "Affiche-jaarprijs Genootschap voor Reclame" ;
+  skos:prefLabel "Affiche-jaarprijs Genootschap voor Reclame" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en Module" .
+
+<https://nago.nl/lijsten/402>
+  a skos:Concept ;
+  rdfs:label "Genootschap voor Reclame" ;
+  skos:prefLabel "Genootschap voor Reclame" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/403>
+  a skos:Concept ;
+  rdfs:label "Art Directors Club New York" ;
+  skos:prefLabel "Art Directors Club New York" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/404>
+  a skos:Concept ;
+  rdfs:label "Duwaerprijs" ;
+  skos:prefLabel "Duwaerprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/405>
+  a skos:Concept ;
+  rdfs:label "Art Directors Club Nederland" ;
+  skos:prefLabel "Art Directors Club Nederland" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/406>
+  a skos:Concept ;
+  rdfs:label "Japanese Typographic Association" ;
+  skos:prefLabel "Japanese Typographic Association" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/407>
+  a skos:Concept ;
+  rdfs:label "International Centre for Typographic Arts" ;
+  skos:prefLabel "International Centre for Typographic Arts" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/408>
+  a skos:Concept ;
+  rdfs:label "Internationale Poster Biennale Warschau" ;
+  skos:prefLabel "Internationale Poster Biennale Warschau" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/409>
+  a skos:Concept ;
+  rdfs:label "Willem Grollenbergprijs" ;
+  skos:prefLabel "Willem Grollenbergprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/410>
+  a skos:Concept ;
+  rdfs:label "Officer of the Most Excellent Order of the British Empire" ;
+  skos:prefLabel "Officer of the Most Excellent Order of the British Empire" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/411>
+  a skos:Concept ;
+  rdfs:label "Erelid BNO" ;
+  skos:prefLabel "Erelid BNO" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/412>
+  a skos:Concept ;
+  rdfs:label "Piet Zwart Prijs BNO" ;
+  skos:prefLabel "Piet Zwart Prijs BNO" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/413>
+  a skos:Concept ;
+  rdfs:label "Stankowski Prijs" ;
+  skos:prefLabel "Stankowski Prijs" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/414>
+  a skos:Concept ;
+  rdfs:label "Ridder in de Orde van de Nederlandse Leeuw" ;
+  skos:prefLabel "Ridder in de Orde van de Nederlandse Leeuw" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/415>
+  a skos:Concept ;
+  rdfs:label "Erelid Deutsche Werkbund" ;
+  skos:prefLabel "Erelid Deutsche Werkbund" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/416>
+  a skos:Concept ;
+  rdfs:label "Honorary Membership Brno" ;
+  skos:prefLabel "Honorary Membership Brno" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/417>
+  a skos:Concept ;
+  rdfs:label "Honorary Fellow, Society of Graphic Designers, Groot Brittannië" ;
+  skos:prefLabel "Honorary Fellow, Society of Graphic Designers, Groot Brittannië" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/418>
+  a skos:Concept ;
+  rdfs:label "Ridder in de Orde van Leopold II, België" ;
+  skos:prefLabel "Ridder in de Orde van Leopold II, België" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/419>
+  a skos:Concept ;
+  rdfs:label "Werkmanprijs" ;
+  skos:prefLabel "Werkmanprijs" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/420>
+  a skos:Concept ;
+  rdfs:label "Officier in de Orde van Oranje Nassau" ;
+  skos:prefLabel "Officier in de Orde van Oranje Nassau" ;
+  skos:broader <https://nago.nl/lijsten/11> ;
+  skos:note "Mode en module" .
+
+<https://nago.nl/lijsten/421>
+  a skos:Concept ;
+  rdfs:label "Prentendoos - nr. 193, binnenmaat 430 x 305 x 60 mm" ;
+  skos:prefLabel "Prentendoos - nr. 193, binnenmaat 430 x 305 x 60 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/422>
+  a skos:Concept ;
+  rdfs:label "Affichemap - nr. 301, binnenmaat 920 x 605 x 10 mm" ;
+  skos:prefLabel "Affichemap - nr. 301, binnenmaat 920 x 605 x 10 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/423>
+  a skos:Concept ;
+  rdfs:label "Standaard staande archiefdoos - nr. 169, binnenmaat 385 x 260 x 114 mm" ;
+  skos:prefLabel "Standaard staande archiefdoos - nr. 169, binnenmaat 385 x 260 x 114 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/424>
+  a skos:Concept ;
+  rdfs:label "Prentendoos - nr. 194, binnenmaat 430 x 605 x 60 mm" ;
+  skos:prefLabel "Prentendoos - nr. 194, binnenmaat 430 x 605 x 60 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/425>
+  a skos:Concept ;
+  rdfs:label "Affichemap - nr. 300, binnenmaat 1203 x 872 x 10 mm" ;
+  skos:prefLabel "Affichemap - nr. 300, binnenmaat 1203 x 872 x 10 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/426>
+  a skos:Concept ;
+  rdfs:label "Standaard liggende archiefdoos - nr. 186, binnenmaat 354 x 228 x 80 mm" ;
+  skos:prefLabel "Standaard liggende archiefdoos - nr. 186, binnenmaat 354 x 228 x 80 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/427>
+  a skos:Concept ;
+  rdfs:label "Prentendoos - nr. 195, binnenmaat 855 x 605 x 60 mm" ;
+  skos:prefLabel "Prentendoos - nr. 195, binnenmaat 855 x 605 x 60 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/428>
+  a skos:Concept ;
+  rdfs:label "inkjet" ;
+  skos:prefLabel "inkjet" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/429>
+  a skos:Concept ;
+  rdfs:label "Tandjung Sailor" ;
+  skos:prefLabel "Tandjung Sailor" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/430>
+  a skos:Concept ;
+  rdfs:label "Tekeningendoos - nr. 600, binnenmaat 1180 x 125 x 135 mm" ;
+  skos:prefLabel "Tekeningendoos - nr. 600, binnenmaat 1180 x 125 x 135 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/431>
+  a skos:Concept ;
+  rdfs:label "Renkum" ;
+  skos:prefLabel "Renkum" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/432>
+  a skos:Concept ;
+  rdfs:label "Bristol, USA" ;
+  skos:prefLabel "Bristol, USA" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/434>
+  a skos:Concept ;
+  rdfs:label "Tekeningendoos - nr. 601, binnenmaat 1285 x 125 x 135 mm" ;
+  skos:prefLabel "Tekeningendoos - nr. 601, binnenmaat 1285 x 125 x 135 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/435>
+  a skos:Concept ;
+  rdfs:label "Prentendoos - nr. 407, binnenmaat 450 x 330 x 180 mm" ;
+  skos:prefLabel "Prentendoos - nr. 407, binnenmaat 450 x 330 x 180 mm" ;
+  skos:broader <https://nago.nl/lijsten/12> ;
+  skos:note "Jansen - Wijsmuller &amp; Beuns bv" .
+
+<https://nago.nl/lijsten/437>
+  a skos:Concept ;
+  rdfs:label "Nieuw item" ;
+  skos:prefLabel "Nieuw item" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/438>
+  a skos:Concept ;
+  rdfs:label "schrijfblok" ;
+  skos:prefLabel "schrijfblok" ;
+  skos:broader <https://nago.nl/lijsten/1> .
+
+<https://nago.nl/lijsten/439>
+  a skos:Concept ;
+  rdfs:label "Coalville, Engeland" ;
+  skos:prefLabel "Coalville, Engeland" ;
+  skos:broader <https://nago.nl/lijsten/4> .
+
+<https://nago.nl/lijsten/440>
+  a skos:Concept ;
+  rdfs:label "verf" ;
+  skos:prefLabel "verf" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/441>
+  a skos:Concept ;
+  rdfs:label "postzegels" ;
+  skos:prefLabel "postzegels" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300037321" .
+
+<https://nago.nl/lijsten/442>
+  a skos:Concept ;
+  rdfs:label "tentoonstellingen" ;
+  skos:prefLabel "tentoonstellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054766" .
+
+<https://nago.nl/lijsten/443>
+  a skos:Concept ;
+  rdfs:label "televisieprogramma’s" ;
+  skos:prefLabel "televisieprogramma’s" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300263432" .
+
+<https://nago.nl/lijsten/444>
+  a skos:Concept ;
+  rdfs:label "openingen (gebeurtenissen)" ;
+  skos:prefLabel "openingen (gebeurtenissen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054769" .
+
+<https://nago.nl/lijsten/445>
+  a skos:Concept ;
+  rdfs:label "toneelgezelschappen" ;
+  skos:prefLabel "toneelgezelschappen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300266039" .
+
+<https://nago.nl/lijsten/446>
+  a skos:Concept ;
+  rdfs:label "aardewerk" ;
+  skos:prefLabel "aardewerk" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300140803" .
+
+<https://nago.nl/lijsten/447>
+  a skos:Concept ;
+  rdfs:label "beeldende kunst" ;
+  skos:prefLabel "beeldende kunst" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054154" .
+
+<https://nago.nl/lijsten/448>
+  a skos:Concept ;
+  rdfs:label "liefdadigheidsinstellingen" ;
+  skos:prefLabel "liefdadigheidsinstellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026005" .
+
+<https://nago.nl/lijsten/449>
+  a skos:Concept ;
+  rdfs:label "fietsen (transportmiddelen)" ;
+  skos:prefLabel "fietsen (transportmiddelen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300212636" .
+
+<https://nago.nl/lijsten/450>
+  a skos:Concept ;
+  rdfs:label "boeken" ;
+  skos:prefLabel "boeken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300028051" .
+
+<https://nago.nl/lijsten/451>
+  a skos:Concept ;
+  rdfs:label "festivals" ;
+  skos:prefLabel "festivals" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300073472" .
+
+<https://nago.nl/lijsten/452>
+  a skos:Concept ;
+  rdfs:label "zeilen (activiteit)" ;
+  skos:prefLabel "zeilen (activiteit)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300239494" .
+
+<https://nago.nl/lijsten/453>
+  a skos:Concept ;
+  rdfs:label "beeldhouwwerken (beeldmateriaal)" ;
+  skos:prefLabel "beeldhouwwerken (beeldmateriaal)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300047090" .
+
+<https://nago.nl/lijsten/454>
+  a skos:Concept ;
+  rdfs:label "auto's" ;
+  skos:prefLabel "auto's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300178739" .
+
+<https://nago.nl/lijsten/455>
+  a skos:Concept ;
+  rdfs:label "romanschrijvers" ;
+  skos:prefLabel "romanschrijvers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300179382" .
+
+<https://nago.nl/lijsten/456>
+  a skos:Concept ;
+  rdfs:label "steden" ;
+  skos:prefLabel "steden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008389" .
+
+<https://nago.nl/lijsten/457>
+  a skos:Concept ;
+  rdfs:label "stedelijke geschiedenis" ;
+  skos:prefLabel "stedelijke geschiedenis" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054404" .
+
+<https://nago.nl/lijsten/458>
+  a skos:Concept ;
+  rdfs:label "politiek" ;
+  skos:prefLabel "politiek" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055537" .
+
+<https://nago.nl/lijsten/459>
+  a skos:Concept ;
+  rdfs:label "theaters" ;
+  skos:prefLabel "theaters" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007117" .
+
+<https://nago.nl/lijsten/460>
+  a skos:Concept ;
+  rdfs:label "kolenmijnen" ;
+  skos:prefLabel "kolenmijnen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300000396" .
+
+<https://nago.nl/lijsten/461>
+  a skos:Concept ;
+  rdfs:label "luciferboekjes" ;
+  skos:prefLabel "luciferboekjes" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055099" .
+
+<https://nago.nl/lijsten/462>
+  a skos:Concept ;
+  rdfs:label "orkesten (ensembles)" ;
+  skos:prefLabel "orkesten (ensembles)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300205073" .
+
+<https://nago.nl/lijsten/463>
+  a skos:Concept ;
+  rdfs:label "concertgebouwen" ;
+  skos:prefLabel "concertgebouwen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007102" .
+
+<https://nago.nl/lijsten/464>
+  a skos:Concept ;
+  rdfs:label "onderzoeken (uitzoeken)" ;
+  skos:prefLabel "onderzoeken (uitzoeken)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300137546" .
+
+<https://nago.nl/lijsten/465>
+  a skos:Concept ;
+  rdfs:label "herdenkingen" ;
+  skos:prefLabel "herdenkingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300214143" .
+
+<https://nago.nl/lijsten/466>
+  a skos:Concept ;
+  rdfs:label "wereldoorlogen" ;
+  skos:prefLabel "wereldoorlogen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300247280" .
+
+<https://nago.nl/lijsten/467>
+  a skos:Concept ;
+  rdfs:label "rooms-katholicisme" ;
+  skos:prefLabel "rooms-katholicisme" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300073730" .
+
+<https://nago.nl/lijsten/468>
+  a skos:Concept ;
+  rdfs:label "jeugd" ;
+  skos:prefLabel "jeugd" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025944" .
+
+<https://nago.nl/lijsten/469>
+  a skos:Concept ;
+  rdfs:label "porselein" ;
+  skos:prefLabel "porselein" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300010662" .
+
+<https://nago.nl/lijsten/470>
+  a skos:Concept ;
+  rdfs:label "automatisering" ;
+  skos:prefLabel "automatisering" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300056084" .
+
+<https://nago.nl/lijsten/471>
+  a skos:Concept ;
+  rdfs:label "telefoonsystemen" ;
+  skos:prefLabel "telefoonsystemen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008615" .
+
+<https://nago.nl/lijsten/472>
+  a skos:Concept ;
+  rdfs:label "cake" ;
+  skos:prefLabel "cake" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300255019" .
+
+<https://nago.nl/lijsten/473>
+  a skos:Concept ;
+  rdfs:label "kunstschilders" ;
+  skos:prefLabel "kunstschilders" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025136" .
+
+<https://nago.nl/lijsten/474>
+  a skos:Concept ;
+  rdfs:label "privécollecties" ;
+  skos:prefLabel "privécollecties" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300146236" .
+
+<https://nago.nl/lijsten/475>
+  a skos:Concept ;
+  rdfs:label "bibliotheken (gebouwen)" ;
+  skos:prefLabel "bibliotheken (gebouwen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006824" .
+
+<https://nago.nl/lijsten/476>
+  a skos:Concept ;
+  rdfs:label "enquÃªteformulieren" ;
+  skos:prefLabel "enquÃªteformulieren" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027265" .
+
+<https://nago.nl/lijsten/477>
+  a skos:Concept ;
+  rdfs:label "drukkerijen" ;
+  skos:prefLabel "drukkerijen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006247" .
+
+<https://nago.nl/lijsten/478>
+  a skos:Concept ;
+  rdfs:label "examens" ;
+  skos:prefLabel "examens" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026936" .
+
+<https://nago.nl/lijsten/479>
+  a skos:Concept ;
+  rdfs:label "middelbare scholen" ;
+  skos:prefLabel "middelbare scholen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006603" .
+
+<https://nago.nl/lijsten/480>
+  a skos:Concept ;
+  rdfs:label "onderwijs" ;
+  skos:prefLabel "onderwijs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054360" .
+
+<https://nago.nl/lijsten/481>
+  a skos:Concept ;
+  rdfs:label "musea" ;
+  skos:prefLabel "musea" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005768" .
+
+<https://nago.nl/lijsten/482>
+  a skos:Concept ;
+  rdfs:label "reclame" ;
+  skos:prefLabel "reclame" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054347" .
+
+<https://nago.nl/lijsten/483>
+  a skos:Concept ;
+  rdfs:label "handboeken" ;
+  skos:prefLabel "handboeken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026395" .
+
+<https://nago.nl/lijsten/484>
+  a skos:Concept ;
+  rdfs:label "muziek" ;
+  skos:prefLabel "muziek" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054146" .
+
+<https://nago.nl/lijsten/485>
+  a skos:Concept ;
+  rdfs:label "wereldtentoonstellingen" ;
+  skos:prefLabel "wereldtentoonstellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054778" .
+
+<https://nago.nl/lijsten/486>
+  a skos:Concept ;
+  rdfs:label "instellingen" ;
+  skos:prefLabel "instellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026004" .
+
+<https://nago.nl/lijsten/487>
+  a skos:Concept ;
+  rdfs:label "ballet" ;
+  skos:prefLabel "ballet" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054145" .
+
+<https://nago.nl/lijsten/489>
+  a skos:Concept ;
+  rdfs:label "dans" ;
+  skos:prefLabel "dans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054144" .
+
+<https://nago.nl/lijsten/490>
+  a skos:Concept ;
+  rdfs:label "liederen" ;
+  skos:prefLabel "liederen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300167056" .
+
+<https://nago.nl/lijsten/491>
+  a skos:Concept ;
+  rdfs:label "kleding" ;
+  skos:prefLabel "kleding" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300178802" .
+
+<https://nago.nl/lijsten/492>
+  a skos:Concept ;
+  rdfs:label "Italiaans" ;
+  skos:prefLabel "Italiaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111198" .
+
+<https://nago.nl/lijsten/493>
+  a skos:Concept ;
+  rdfs:label "film (uitvoerende kunsten)" ;
+  skos:prefLabel "film (uitvoerende kunsten)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054141" .
+
+<https://nago.nl/lijsten/494>
+  a skos:Concept ;
+  rdfs:label "circussen (voorstellingen)" ;
+  skos:prefLabel "circussen (voorstellingen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069235" .
+
+<https://nago.nl/lijsten/495>
+  a skos:Concept ;
+  rdfs:label "jubilea" ;
+  skos:prefLabel "jubilea" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "900018301" .
+
+<https://nago.nl/lijsten/496>
+  a skos:Concept ;
+  rdfs:label "non-fiction" ;
+  skos:prefLabel "non-fiction" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300163411" .
+
+<https://nago.nl/lijsten/497>
+  a skos:Concept ;
+  rdfs:label "installaties (beeldmateriaal)" ;
+  skos:prefLabel "installaties (beeldmateriaal)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300047896" .
+
+<https://nago.nl/lijsten/499>
+  a skos:Concept ;
+  rdfs:label "vrouwen" ;
+  skos:prefLabel "vrouwen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025943" .
+
+<https://nago.nl/lijsten/500>
+  a skos:Concept ;
+  rdfs:label "premières" ;
+  skos:prefLabel "premières" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069101" .
+
+<https://nago.nl/lijsten/501>
+  a skos:Concept ;
+  rdfs:label "documentaires" ;
+  skos:prefLabel "documentaires" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300249172" .
+
+<https://nago.nl/lijsten/502>
+  a skos:Concept ;
+  rdfs:label "films" ;
+  skos:prefLabel "films" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300136900" .
+
+<https://nago.nl/lijsten/504>
+  a skos:Concept ;
+  rdfs:label "magazines" ;
+  skos:prefLabel "magazines" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300215389" .
+
+<https://nago.nl/lijsten/505>
+  a skos:Concept ;
+  rdfs:label "voorstellingen (gebeurtenissen)" ;
+  skos:prefLabel "voorstellingen (gebeurtenissen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069200" .
+
+<https://nago.nl/lijsten/506>
+  a skos:Concept ;
+  rdfs:label "Duits" ;
+  skos:prefLabel "Duits" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111192" .
+
+<https://nago.nl/lijsten/507>
+  a skos:Concept ;
+  rdfs:label "opera's" ;
+  skos:prefLabel "opera's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300255765" .
+
+<https://nago.nl/lijsten/511>
+  a skos:Concept ;
+  rdfs:label "uitvoerende kunsten" ;
+  skos:prefLabel "uitvoerende kunsten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054140" .
+
+<https://nago.nl/lijsten/512>
+  a skos:Concept ;
+  rdfs:label "programma's" ;
+  skos:prefLabel "programma's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027240" .
+
+<https://nago.nl/lijsten/513>
+  a skos:Concept ;
+  rdfs:label "Chinees" ;
+  skos:prefLabel "Chinees" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300018322" .
+
+<https://nago.nl/lijsten/514>
+  a skos:Concept ;
+  rdfs:label "Barok" ;
+  skos:prefLabel "Barok" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021147" .
+
+<https://nago.nl/lijsten/516>
+  a skos:Concept ;
+  rdfs:label "Japans" ;
+  skos:prefLabel "Japans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300018519" .
+
+<https://nago.nl/lijsten/517>
+  a skos:Concept ;
+  rdfs:label "concerten" ;
+  skos:prefLabel "concerten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069210" .
+
+<https://nago.nl/lijsten/519>
+  a skos:Concept ;
+  rdfs:label "tragedies" ;
+  skos:prefLabel "tragedies" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300201026" .
+
+<https://nago.nl/lijsten/520>
+  a skos:Concept ;
+  rdfs:label "openluchttentoonstellingen" ;
+  skos:prefLabel "openluchttentoonstellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300263274" .
+
+<https://nago.nl/lijsten/521>
+  a skos:Concept ;
+  rdfs:label "feesten" ;
+  skos:prefLabel "feesten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069614" .
+
+<https://nago.nl/lijsten/522>
+  a skos:Concept ;
+  rdfs:label "Amerikaans" ;
+  skos:prefLabel "Amerikaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300107956" .
+
+<https://nago.nl/lijsten/523>
+  a skos:Concept ;
+  rdfs:label "toneelstukken" ;
+  skos:prefLabel "toneelstukken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300201028" .
+
+<https://nago.nl/lijsten/524>
+  a skos:Concept ;
+  rdfs:label "componisten" ;
+  skos:prefLabel "componisten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025671" .
+
+<https://nago.nl/lijsten/525>
+  a skos:Concept ;
+  rdfs:label "choreografen" ;
+  skos:prefLabel "choreografen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025649" .
+
+<https://nago.nl/lijsten/526>
+  a skos:Concept ;
+  rdfs:label "Russisch" ;
+  skos:prefLabel "Russisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111276" .
+
+<https://nago.nl/lijsten/527>
+  a skos:Concept ;
+  rdfs:label "Afrikaans" ;
+  skos:prefLabel "Afrikaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015647" .
+
+<https://nago.nl/lijsten/528>
+  a skos:Concept ;
+  rdfs:label "kunsten" ;
+  skos:prefLabel "kunsten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300175240" .
+
+<https://nago.nl/lijsten/529>
+  a skos:Concept ;
+  rdfs:label "gala's" ;
+  skos:prefLabel "gala's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069099" .
+
+<https://nago.nl/lijsten/530>
+  a skos:Concept ;
+  rdfs:label "Nederlands" ;
+  skos:prefLabel "Nederlands" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300020929" .
+
+<https://nago.nl/lijsten/531>
+  a skos:Concept ;
+  rdfs:label "architectuur (vakgebied)" ;
+  skos:prefLabel "architectuur (vakgebied)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054156" .
+
+<https://nago.nl/lijsten/532>
+  a skos:Concept ;
+  rdfs:label "Hongaars" ;
+  skos:prefLabel "Hongaars" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111195" .
+
+<https://nago.nl/lijsten/533>
+  a skos:Concept ;
+  rdfs:label "mythologie (literair genre)" ;
+  skos:prefLabel "mythologie (literair genre)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055985" .
+
+<https://nago.nl/lijsten/534>
+  a skos:Concept ;
+  rdfs:label "regisseurs" ;
+  skos:prefLabel "regisseurs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025654" .
+
+<https://nago.nl/lijsten/535>
+  a skos:Concept ;
+  rdfs:label "Frans" ;
+  skos:prefLabel "Frans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111188" .
+
+<https://nago.nl/lijsten/536>
+  a skos:Concept ;
+  rdfs:label "brochures" ;
+  skos:prefLabel "brochures" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300248280" .
+
+<https://nago.nl/lijsten/537>
+  a skos:Concept ;
+  rdfs:label "dansers" ;
+  skos:prefLabel "dansers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025653" .
+
+<https://nago.nl/lijsten/538>
+  a skos:Concept ;
+  rdfs:label "ontwerpen (designs)" ;
+  skos:prefLabel "ontwerpen (designs)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300102051" .
+
+<https://nago.nl/lijsten/539>
+  a skos:Concept ;
+  rdfs:label "affiches" ;
+  skos:prefLabel "affiches" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "00027221" .
+
+<https://nago.nl/lijsten/540>
+  a skos:Concept ;
+  rdfs:label "fictie" ;
+  skos:prefLabel "fictie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055918" .
+
+<https://nago.nl/lijsten/541>
+  a skos:Concept ;
+  rdfs:label "catalogi" ;
+  skos:prefLabel "catalogi" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026059" .
+
+<https://nago.nl/lijsten/542>
+  a skos:Concept ;
+  rdfs:label "almanakken" ;
+  skos:prefLabel "almanakken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026705" .
+
+<https://nago.nl/lijsten/543>
+  a skos:Concept ;
+  rdfs:label "herdenkingsprogramma's" ;
+  skos:prefLabel "herdenkingsprogramma's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300253341" .
+
+<https://nago.nl/lijsten/544>
+  a skos:Concept ;
+  rdfs:label "theaterprogramma's" ;
+  skos:prefLabel "theaterprogramma's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027217" .
+
+<https://nago.nl/lijsten/545>
+  a skos:Concept ;
+  rdfs:label "openluchttheaters" ;
+  skos:prefLabel "openluchttheaters" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007126" .
+
+<https://nago.nl/lijsten/546>
+  a skos:Concept ;
+  rdfs:label "moraliteiten" ;
+  skos:prefLabel "moraliteiten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300202564" .
+
+<https://nago.nl/lijsten/547>
+  a skos:Concept ;
+  rdfs:label "wereldoorlog" ;
+  skos:prefLabel "wereldoorlog" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300247280" .
+
+<https://nago.nl/lijsten/548>
+  a skos:Concept ;
+  rdfs:label "kerk" ;
+  skos:prefLabel "kerk" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007466" .
+
+<https://nago.nl/lijsten/549>
+  a skos:Concept ;
+  rdfs:label "bedrijfsimago" ;
+  skos:prefLabel "bedrijfsimago" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300195663" .
+
+<https://nago.nl/lijsten/550>
+  a skos:Concept ;
+  rdfs:label "corporate identity" ;
+  skos:prefLabel "corporate identity" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300195663" .
+
+<https://nago.nl/lijsten/551>
+  a skos:Concept ;
+  rdfs:label "uitvinders" ;
+  skos:prefLabel "uitvinders" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025845" .
+
+<https://nago.nl/lijsten/552>
+  a skos:Concept ;
+  rdfs:label "wetenschappers" ;
+  skos:prefLabel "wetenschappers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025788" .
+
+<https://nago.nl/lijsten/553>
+  a skos:Concept ;
+  rdfs:label "kunstenaars" ;
+  skos:prefLabel "kunstenaars" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025103" .
+
+<https://nago.nl/lijsten/554>
+  a skos:Concept ;
+  rdfs:label "supermarkten" ;
+  skos:prefLabel "supermarkten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005246" .
+
+<https://nago.nl/lijsten/555>
+  a skos:Concept ;
+  rdfs:label "sporten (lichamelijke activiteiten)" ;
+  skos:prefLabel "sporten (lichamelijke activiteiten)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300222725" .
+
+<https://nago.nl/lijsten/556>
+  a skos:Concept ;
+  rdfs:label "rijkdom" ;
+  skos:prefLabel "rijkdom" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055767" .
+
+<https://nago.nl/lijsten/557>
+  a skos:Concept ;
+  rdfs:label "armoede" ;
+  skos:prefLabel "armoede" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055307" .
+
+<https://nago.nl/lijsten/558>
+  a skos:Concept ;
+  rdfs:label "koninklijke paleizen" ;
+  skos:prefLabel "koninklijke paleizen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005743" .
+
+<https://nago.nl/lijsten/559>
+  a skos:Concept ;
+  rdfs:label "toegepaste kunst" ;
+  skos:prefLabel "toegepaste kunst" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054168" .
+
+<https://nago.nl/lijsten/560>
+  a skos:Concept ;
+  rdfs:label "koloniën" ;
+  skos:prefLabel "koloniën" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300235115" .
+
+<https://nago.nl/lijsten/561>
+  a skos:Concept ;
+  rdfs:label "vormgeving" ;
+  skos:prefLabel "vormgeving" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054171" .
+
+<https://nago.nl/lijsten/562>
+  a skos:Concept ;
+  rdfs:label "grafische vormgeving" ;
+  skos:prefLabel "grafische vormgeving" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054181" .
+
+<https://nago.nl/lijsten/563>
+  a skos:Concept ;
+  rdfs:label "industriële vormgeving" ;
+  skos:prefLabel "industriële vormgeving" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054183" .
+
+<https://nago.nl/lijsten/564>
+  a skos:Concept ;
+  rdfs:label "modeontwerp" ;
+  skos:prefLabel "modeontwerp" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300138708" .
+
+<https://nago.nl/lijsten/565>
+  a skos:Concept ;
+  rdfs:label "binnenhuisarchitectuur" ;
+  skos:prefLabel "binnenhuisarchitectuur" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054184" .
+
+<https://nago.nl/lijsten/566>
+  a skos:Concept ;
+  rdfs:label "bruggen" ;
+  skos:prefLabel "bruggen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007836" .
+
+<https://nago.nl/lijsten/567>
+  a skos:Concept ;
+  rdfs:label "voetbalsport" ;
+  skos:prefLabel "voetbalsport" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300222801" .
+
+<https://nago.nl/lijsten/570>
+  a skos:Concept ;
+  rdfs:label "rampen" ;
+  skos:prefLabel "rampen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300182939" .
+
+<https://nago.nl/lijsten/571>
+  a skos:Concept ;
+  rdfs:label "rampenbestrijding" ;
+  skos:prefLabel "rampenbestrijding" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300252407" .
+
+<https://nago.nl/lijsten/572>
+  a skos:Concept ;
+  rdfs:label "hofhoudingen (sociale groepen)" ;
+  skos:prefLabel "hofhoudingen (sociale groepen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300236519" .
+
+<https://nago.nl/lijsten/573>
+  a skos:Concept ;
+  rdfs:label "gemeenschapsontwikkeling" ;
+  skos:prefLabel "gemeenschapsontwikkeling" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055433" .
+
+<https://nago.nl/lijsten/574>
+  a skos:Concept ;
+  rdfs:label "neoplastisch" ;
+  skos:prefLabel "neoplastisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021262" .
+
+<https://nago.nl/lijsten/575>
+  a skos:Concept ;
+  rdfs:label "De Stijl" ;
+  skos:prefLabel "De Stijl" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021259" .
+
+<https://nago.nl/lijsten/576>
+  a skos:Concept ;
+  rdfs:label "vastgoedontwikkeling" ;
+  skos:prefLabel "vastgoedontwikkeling" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055444" .
+
+<https://nago.nl/lijsten/577>
+  a skos:Concept ;
+  rdfs:label "landgoed" ;
+  skos:prefLabel "landgoed" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300000238" .
+
+<https://nago.nl/lijsten/578>
+  a skos:Concept ;
+  rdfs:label "technologie" ;
+  skos:prefLabel "technologie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300056069" .
+
+<https://nago.nl/lijsten/580>
+  a skos:Concept ;
+  rdfs:label "spoorwegstations" ;
+  skos:prefLabel "spoorwegstations" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007783" .
+
+<https://nago.nl/lijsten/581>
+  a skos:Concept ;
+  rdfs:label "spoorwegen" ;
+  skos:prefLabel "spoorwegen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008591" .
+
+<https://nago.nl/lijsten/582>
+  a skos:Concept ;
+  rdfs:label "parkeerplaatsen" ;
+  skos:prefLabel "parkeerplaatsen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007826" .
+
+<https://nago.nl/lijsten/583>
+  a skos:Concept ;
+  rdfs:label "openbaar vervoer" ;
+  skos:prefLabel "openbaar vervoer" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300155835" .
+
+<https://nago.nl/lijsten/585>
+  a skos:Concept ;
+  rdfs:label "infrastructuur" ;
+  skos:prefLabel "infrastructuur" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008553" .
+
+<https://nago.nl/lijsten/586>
+  a skos:Concept ;
+  rdfs:label "culturele centra" ;
+  skos:prefLabel "culturele centra" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005135" .
+
+<https://nago.nl/lijsten/587>
+  a skos:Concept ;
+  rdfs:label "theater (vakgebied)" ;
+  skos:prefLabel "theater (vakgebied)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054148" .
+
+<https://nago.nl/lijsten/588>
+  a skos:Concept ;
+  rdfs:label "schilderijen" ;
+  skos:prefLabel "schilderijen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300177435" .
+
+<https://nago.nl/lijsten/589>
+  a skos:Concept ;
+  rdfs:label "adresboeken" ;
+  skos:prefLabel "adresboeken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026689" .
+
+<https://nago.nl/lijsten/591>
+  a skos:Concept ;
+  rdfs:label "fotografie" ;
+  skos:prefLabel "fotografie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054225" .
+
+<https://nago.nl/lijsten/593>
+  a skos:Concept ;
+  rdfs:label "fondsverstrekkende instanties" ;
+  skos:prefLabel "fondsverstrekkende instanties" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300150080" .
+
+<https://nago.nl/lijsten/594>
+  a skos:Concept ;
+  rdfs:label "seminars" ;
+  skos:prefLabel "seminars" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069755" .
+
+<https://nago.nl/lijsten/595>
+  a skos:Concept ;
+  rdfs:label "veiligheid" ;
+  skos:prefLabel "veiligheid" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055282" .
+
+<https://nago.nl/lijsten/596>
+  a skos:Concept ;
+  rdfs:label "ruimtelijke ordening van het platteland" ;
+  skos:prefLabel "ruimtelijke ordening van het platteland" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054434" .
+
+<https://nago.nl/lijsten/597>
+  a skos:Concept ;
+  rdfs:label "essays" ;
+  skos:prefLabel "essays" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026291" .
+
+<https://nago.nl/lijsten/598>
+  a skos:Concept ;
+  rdfs:label "zorginstellingen" ;
+  skos:prefLabel "zorginstellingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006707" .
+
+<https://nago.nl/lijsten/599>
+  a skos:Concept ;
+  rdfs:label "parken (openbare ruimten)" ;
+  skos:prefLabel "parken (openbare ruimten)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008187" .
+
+<https://nago.nl/lijsten/602>
+  a skos:Concept ;
+  rdfs:label "gemeentelijke overheid" ;
+  skos:prefLabel "gemeentelijke overheid" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055500" .
+
+<https://nago.nl/lijsten/603>
+  a skos:Concept ;
+  rdfs:label "bouwvakkers" ;
+  skos:prefLabel "bouwvakkers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025001" .
+
+<https://nago.nl/lijsten/604>
+  a skos:Concept ;
+  rdfs:label "timmerlieden" ;
+  skos:prefLabel "timmerlieden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025008" .
+
+<https://nago.nl/lijsten/605>
+  a skos:Concept ;
+  rdfs:label "bedrijven" ;
+  skos:prefLabel "bedrijven" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300160084" .
+
+<https://nago.nl/lijsten/606>
+  a skos:Concept ;
+  rdfs:label "technische handboeken" ;
+  skos:prefLabel "technische handboeken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026413" .
+
+<https://nago.nl/lijsten/607>
+  a skos:Concept ;
+  rdfs:label "kadasters" ;
+  skos:prefLabel "kadasters" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300136962" .
+
+<https://nago.nl/lijsten/608>
+  a skos:Concept ;
+  rdfs:label "middelbaar onderwijs" ;
+  skos:prefLabel "middelbaar onderwijs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054368" .
+
+<https://nago.nl/lijsten/609>
+  a skos:Concept ;
+  rdfs:label "hoger onderwijs" ;
+  skos:prefLabel "hoger onderwijs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054370" .
+
+<https://nago.nl/lijsten/610>
+  a skos:Concept ;
+  rdfs:label "notariële documenten" ;
+  skos:prefLabel "notariële documenten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300164785" .
+
+<https://nago.nl/lijsten/611>
+  a skos:Concept ;
+  rdfs:label "politieke instanties" ;
+  skos:prefLabel "politieke instanties" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300261086" .
+
+<https://nago.nl/lijsten/612>
+  a skos:Concept ;
+  rdfs:label "Japanse prent-stijlen" ;
+  skos:prefLabel "Japanse prent-stijlen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300106750" .
+
+<https://nago.nl/lijsten/613>
+  a skos:Concept ;
+  rdfs:label "lager onderwijs" ;
+  skos:prefLabel "lager onderwijs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054366" .
+
+<https://nago.nl/lijsten/614>
+  a skos:Concept ;
+  rdfs:label "vakopleiding" ;
+  skos:prefLabel "vakopleiding" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300188826" .
+
+<https://nago.nl/lijsten/616>
+  a skos:Concept ;
+  rdfs:label "relatiegeschenken" ;
+  skos:prefLabel "relatiegeschenken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300233979" .
+
+<https://nago.nl/lijsten/617>
+  a skos:Concept ;
+  rdfs:label "oeuvre" ;
+  skos:prefLabel "oeuvre" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300070186" .
+
+<https://nago.nl/lijsten/618>
+  a skos:Concept ;
+  rdfs:label "investeringen" ;
+  skos:prefLabel "investeringen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055727" .
+
+<https://nago.nl/lijsten/619>
+  a skos:Concept ;
+  rdfs:label "gidsen (documenten)" ;
+  skos:prefLabel "gidsen (documenten)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026300" .
+
+<https://nago.nl/lijsten/620>
+  a skos:Concept ;
+  rdfs:label "eeuwfeesten" ;
+  skos:prefLabel "eeuwfeesten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300190366" .
+
+<https://nago.nl/lijsten/621>
+  a skos:Concept ;
+  rdfs:label "ministeries" ;
+  skos:prefLabel "ministeries" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006004" .
+
+<https://nago.nl/lijsten/622>
+  a skos:Concept ;
+  rdfs:label "milieubeheer" ;
+  skos:prefLabel "milieubeheer" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054238" .
+
+<https://nago.nl/lijsten/623>
+  a skos:Concept ;
+  rdfs:label "directeuren" ;
+  skos:prefLabel "directeuren" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025431" .
+
+<https://nago.nl/lijsten/627>
+  a skos:Concept ;
+  rdfs:label "nieuwbouwprojecten" ;
+  skos:prefLabel "nieuwbouwprojecten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300000498" .
+
+<https://nago.nl/lijsten/628>
+  a skos:Concept ;
+  rdfs:label "warenhuizen" ;
+  skos:prefLabel "warenhuizen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005344" .
+
+<https://nago.nl/lijsten/629>
+  a skos:Concept ;
+  rdfs:label "politieagenten" ;
+  skos:prefLabel "politieagenten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025867" .
+
+<https://nago.nl/lijsten/630>
+  a skos:Concept ;
+  rdfs:label "landbouwuitrusting" ;
+  skos:prefLabel "landbouwuitrusting" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300233315" .
+
+<https://nago.nl/lijsten/631>
+  a skos:Concept ;
+  rdfs:label "alcohol" ;
+  skos:prefLabel "alcohol" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015224" .
+
+<https://nago.nl/lijsten/632>
+  a skos:Concept ;
+  rdfs:label "collectieve arbeidsovereenkomsten" ;
+  skos:prefLabel "collectieve arbeidsovereenkomsten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027630" .
+
+<https://nago.nl/lijsten/633>
+  a skos:Concept ;
+  rdfs:label "wetgeving" ;
+  skos:prefLabel "wetgeving" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055570" .
+
+<https://nago.nl/lijsten/634>
+  a skos:Concept ;
+  rdfs:label "stichtingen (organisaties)" ;
+  skos:prefLabel "stichtingen (organisaties)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025985" .
+
+<https://nago.nl/lijsten/635>
+  a skos:Concept ;
+  rdfs:label "baggeren" ;
+  skos:prefLabel "baggeren" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300053705" .
+
+<https://nago.nl/lijsten/636>
+  a skos:Concept ;
+  rdfs:label "bergingswerk" ;
+  skos:prefLabel "bergingswerk" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "900017296" .
+
+<https://nago.nl/lijsten/637>
+  a skos:Concept ;
+  rdfs:label "rede" ;
+  skos:prefLabel "rede" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055194" .
+
+<https://nago.nl/lijsten/638>
+  a skos:Concept ;
+  rdfs:label "nieuwjaarsdag" ;
+  skos:prefLabel "nieuwjaarsdag" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069456" .
+
+<https://nago.nl/lijsten/639>
+  a skos:Concept ;
+  rdfs:label "bewegwijzering" ;
+  skos:prefLabel "bewegwijzering" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300193977" .
+
+<https://nago.nl/lijsten/640>
+  a skos:Concept ;
+  rdfs:label "fietsen (transportmiddelen)" ;
+  skos:prefLabel "fietsen (transportmiddelen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300212636" .
+
+<https://nago.nl/lijsten/641>
+  a skos:Concept ;
+  rdfs:label "ziekenhuizen" ;
+  skos:prefLabel "ziekenhuizen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006676" .
+
+<https://nago.nl/lijsten/642>
+  a skos:Concept ;
+  rdfs:label "pictogrammen (tekens)" ;
+  skos:prefLabel "pictogrammen (tekens)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300124411" .
+
+<https://nago.nl/lijsten/643>
+  a skos:Concept ;
+  rdfs:label "jaarboeken" ;
+  skos:prefLabel "jaarboeken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026646" .
+
+<https://nago.nl/lijsten/644>
+  a skos:Concept ;
+  rdfs:label "medische centra" ;
+  skos:prefLabel "medische centra" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006653" .
+
+<https://nago.nl/lijsten/645>
+  a skos:Concept ;
+  rdfs:label "bussen (voertuigen)" ;
+  skos:prefLabel "bussen (voertuigen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300212677" .
+
+<https://nago.nl/lijsten/646>
+  a skos:Concept ;
+  rdfs:label "kabeltelevisie" ;
+  skos:prefLabel "kabeltelevisie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300265089" .
+
+<https://nago.nl/lijsten/647>
+  a skos:Concept ;
+  rdfs:label "antennes" ;
+  skos:prefLabel "antennes" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300253498" .
+
+<https://nago.nl/lijsten/648>
+  a skos:Concept ;
+  rdfs:label "televisie" ;
+  skos:prefLabel "televisie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300249920" .
+
+<https://nago.nl/lijsten/649>
+  a skos:Concept ;
+  rdfs:label "schetsjes" ;
+  skos:prefLabel "schetsjes" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300075467" .
+
+<https://nago.nl/lijsten/650>
+  a skos:Concept ;
+  rdfs:label "schetsen (techniek)" ;
+  skos:prefLabel "schetsen (techniek)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300053576" .
+
+<https://nago.nl/lijsten/651>
+  a skos:Concept ;
+  rdfs:label "schetsen (beeldende werken)" ;
+  skos:prefLabel "schetsen (beeldende werken)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015617" .
+
+<https://nago.nl/lijsten/652>
+  a skos:Concept ;
+  rdfs:label "burgemeesters" ;
+  skos:prefLabel "burgemeesters" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025468" .
+
+<https://nago.nl/lijsten/654>
+  a skos:Concept ;
+  rdfs:label "scheepsarcheologie" ;
+  skos:prefLabel "scheepsarcheologie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "900022620" .
+
+<https://nago.nl/lijsten/655>
+  a skos:Concept ;
+  rdfs:label "archeologie" ;
+  skos:prefLabel "archeologie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054328" .
+
+<https://nago.nl/lijsten/657>
+  a skos:Concept ;
+  rdfs:label "kantoorgebouwen" ;
+  skos:prefLabel "kantoorgebouwen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007043" .
+
+<https://nago.nl/lijsten/658>
+  a skos:Concept ;
+  rdfs:label "bouwkunde" ;
+  skos:prefLabel "bouwkunde" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300265672" .
+
+<https://nago.nl/lijsten/659>
+  a skos:Concept ;
+  rdfs:label "hongersnood" ;
+  skos:prefLabel "hongersnood" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "900021074" .
+
+<https://nago.nl/lijsten/660>
+  a skos:Concept ;
+  rdfs:label "woonhuizen" ;
+  skos:prefLabel "woonhuizen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005433" .
+
+<https://nago.nl/lijsten/661>
+  a skos:Concept ;
+  rdfs:label "woningen" ;
+  skos:prefLabel "woningen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005425" .
+
+<https://nago.nl/lijsten/662>
+  a skos:Concept ;
+  rdfs:label "huisvesting" ;
+  skos:prefLabel "huisvesting" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300000283" .
+
+<https://nago.nl/lijsten/663>
+  a skos:Concept ;
+  rdfs:label "bankwezen" ;
+  skos:prefLabel "bankwezen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054348" .
+
+<https://nago.nl/lijsten/664>
+  a skos:Concept ;
+  rdfs:label "brouwerijen" ;
+  skos:prefLabel "brouwerijen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006341" .
+
+<https://nago.nl/lijsten/667>
+  a skos:Concept ;
+  rdfs:label "economie" ;
+  skos:prefLabel "economie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054359" .
+
+<https://nago.nl/lijsten/668>
+  a skos:Concept ;
+  rdfs:label "zuivelproducten" ;
+  skos:prefLabel "zuivelproducten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "900017725" .
+
+<https://nago.nl/lijsten/669>
+  a skos:Concept ;
+  rdfs:label "Psychedelische kunst" ;
+  skos:prefLabel "Psychedelische kunst" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300112743" .
+
+<https://nago.nl/lijsten/671>
+  a skos:Concept ;
+  rdfs:label "gitaristen" ;
+  skos:prefLabel "gitaristen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300235042" .
+
+<https://nago.nl/lijsten/672>
+  a skos:Concept ;
+  rdfs:label "bladmuziek" ;
+  skos:prefLabel "bladmuziek" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026430" .
+
+<https://nago.nl/lijsten/673>
+  a skos:Concept ;
+  rdfs:label "novellen" ;
+  skos:prefLabel "novellen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300202569" .
+
+<https://nago.nl/lijsten/674>
+  a skos:Concept ;
+  rdfs:label "Spaans" ;
+  skos:prefLabel "Spaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111215" .
+
+<https://nago.nl/lijsten/675>
+  a skos:Concept ;
+  rdfs:label "libretto's" ;
+  skos:prefLabel "libretto's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026424" .
+
+<https://nago.nl/lijsten/676>
+  a skos:Concept ;
+  rdfs:label "toneelschrijvers" ;
+  skos:prefLabel "toneelschrijvers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025511" .
+
+<https://nago.nl/lijsten/678>
+  a skos:Concept ;
+  rdfs:label "uitlenen (collectiebeheer)" ;
+  skos:prefLabel "uitlenen (collectiebeheer)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300155326" .
+
+<https://nago.nl/lijsten/679>
+  a skos:Concept ;
+  rdfs:label "parabels" ;
+  skos:prefLabel "parabels" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300185342" .
+
+<https://nago.nl/lijsten/680>
+  a skos:Concept ;
+  rdfs:label "Kroatisch" ;
+  skos:prefLabel "Kroatisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300263655" .
+
+<https://nago.nl/lijsten/681>
+  a skos:Concept ;
+  rdfs:label "lezingen" ;
+  skos:prefLabel "lezingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026673" .
+
+<https://nago.nl/lijsten/682>
+  a skos:Concept ;
+  rdfs:label "modeontwerpers" ;
+  skos:prefLabel "modeontwerpers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025198" .
+
+<https://nago.nl/lijsten/683>
+  a skos:Concept ;
+  rdfs:label "Nieuw item" ;
+  skos:prefLabel "Nieuw item" ;
+  skos:broader <https://nago.nl/lijsten/391> .
+
+<https://nago.nl/lijsten/684>
+  a skos:Concept ;
+  rdfs:label "bijeenkomsten" ;
+  skos:prefLabel "bijeenkomsten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054788" .
+
+<https://nago.nl/lijsten/685>
+  a skos:Concept ;
+  rdfs:label "Canadees" ;
+  skos:prefLabel "Canadees" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300107962" .
+
+<https://nago.nl/lijsten/686>
+  a skos:Concept ;
+  rdfs:label "folders" ;
+  skos:prefLabel "folders" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300212274" .
+
+<https://nago.nl/lijsten/687>
+  a skos:Concept ;
+  rdfs:label "prijslijsten" ;
+  skos:prefLabel "prijslijsten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027162" .
+
+<https://nago.nl/lijsten/688>
+  a skos:Concept ;
+  rdfs:label "agenda's" ;
+  skos:prefLabel "agenda's" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027426" .
+
+<https://nago.nl/lijsten/689>
+  a skos:Concept ;
+  rdfs:label "kalenders" ;
+  skos:prefLabel "kalenders" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026741" .
+
+<https://nago.nl/lijsten/691>
+  a skos:Concept ;
+  rdfs:label "tijdschriften" ;
+  skos:prefLabel "tijdschriften" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026657" .
+
+<https://nago.nl/lijsten/692>
+  a skos:Concept ;
+  rdfs:label "academie" ;
+  skos:prefLabel "academie" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/693>
+  a skos:Concept ;
+  rdfs:label "productie" ;
+  skos:prefLabel "productie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/694>
+  a skos:Concept ;
+  rdfs:label "communicatiebureau" ;
+  skos:prefLabel "communicatiebureau" ;
+  skos:broader <https://nago.nl/lijsten/10> .
+
+<https://nago.nl/lijsten/695>
+  a skos:Concept ;
+  rdfs:label "lithografie" ;
+  skos:prefLabel "lithografie" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/696>
+  a skos:Concept ;
+  rdfs:label "vormgeving" ;
+  skos:prefLabel "vormgeving" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/697>
+  a skos:Concept ;
+  rdfs:label "papier" ;
+  skos:prefLabel "papier" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/698>
+  a skos:Concept ;
+  rdfs:label "spotvernis" ;
+  skos:prefLabel "spotvernis" ;
+  skos:broader <https://nago.nl/lijsten/5> .
+
+<https://nago.nl/lijsten/699>
+  a skos:Concept ;
+  rdfs:label "kraftpapier" ;
+  skos:prefLabel "kraftpapier" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/700>
+  a skos:Concept ;
+  rdfs:label "kraftpapier gebleekt" ;
+  skos:prefLabel "kraftpapier gebleekt" ;
+  skos:broader <https://nago.nl/lijsten/6> .
+
+<https://nago.nl/lijsten/701>
+  a skos:Concept ;
+  rdfs:label "borduurwerk" ;
+  skos:prefLabel "borduurwerk" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/702>
+  a skos:Concept ;
+  rdfs:label "zetwerk" ;
+  skos:prefLabel "zetwerk" ;
+  skos:broader <https://nago.nl/lijsten/3> .
+
+<https://nago.nl/lijsten/703>
+  a skos:Concept ;
+  rdfs:label "Nieuw item" ;
+  skos:prefLabel "Nieuw item" ;
+  skos:broader <https://nago.nl/lijsten/391> .
+
+<https://nago.nl/lijsten/704>
+  a skos:Concept ;
+  rdfs:label "vieringen (gebeurtenissen)" ;
+  skos:prefLabel "vieringen (gebeurtenissen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300152441" .
+
+<https://nago.nl/lijsten/705>
+  a skos:Concept ;
+  rdfs:label "Coupons" ;
+  skos:prefLabel "Coupons" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300191365" .
+
+<https://nago.nl/lijsten/706>
+  a skos:Concept ;
+  rdfs:label "prenten" ;
+  skos:prefLabel "prenten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300041273" .
+
+<https://nago.nl/lijsten/707>
+  a skos:Concept ;
+  rdfs:label "pottenbakkers" ;
+  skos:prefLabel "pottenbakkers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025414" .
+
+<https://nago.nl/lijsten/708>
+  a skos:Concept ;
+  rdfs:label "tekeningen" ;
+  skos:prefLabel "tekeningen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300033973" .
+
+<https://nago.nl/lijsten/709>
+  a skos:Concept ;
+  rdfs:label "meesters" ;
+  skos:prefLabel "meesters" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025904" .
+
+<https://nago.nl/lijsten/710>
+  a skos:Concept ;
+  rdfs:label "aquarellen" ;
+  skos:prefLabel "aquarellen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300078925" .
+
+<https://nago.nl/lijsten/711>
+  a skos:Concept ;
+  rdfs:label "pausen" ;
+  skos:prefLabel "pausen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025773" .
+
+<https://nago.nl/lijsten/712>
+  a skos:Concept ;
+  rdfs:label "verenigingen" ;
+  skos:prefLabel "verenigingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025950" .
+
+<https://nago.nl/lijsten/713>
+  a skos:Concept ;
+  rdfs:label "architecten" ;
+  skos:prefLabel "architecten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300024987" .
+
+<https://nago.nl/lijsten/714>
+  a skos:Concept ;
+  rdfs:label "Dogon" ;
+  skos:prefLabel "Dogon" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015855" .
+
+<https://nago.nl/lijsten/715>
+  a skos:Concept ;
+  rdfs:label "volksprenten" ;
+  skos:prefLabel "volksprenten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300178636" .
+
+<https://nago.nl/lijsten/716>
+  a skos:Concept ;
+  rdfs:label "houtsneden" ;
+  skos:prefLabel "houtsneden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300041405" .
+
+<https://nago.nl/lijsten/717>
+  a skos:Concept ;
+  rdfs:label "beelden (objectgenre)" ;
+  skos:prefLabel "beelden (objectgenre)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300264387" .
+
+<https://nago.nl/lijsten/718>
+  a skos:Concept ;
+  rdfs:label "kunstnijverheid" ;
+  skos:prefLabel "kunstnijverheid" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054168" .
+
+<https://nago.nl/lijsten/719>
+  a skos:Concept ;
+  rdfs:label "tin" ;
+  skos:prefLabel "tin" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300133748" .
+
+<https://nago.nl/lijsten/720>
+  a skos:Concept ;
+  rdfs:label "grafieken" ;
+  skos:prefLabel "grafieken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027020" .
+
+<https://nago.nl/lijsten/721>
+  a skos:Concept ;
+  rdfs:label "paleizen" ;
+  skos:prefLabel "paleizen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005734" .
+
+<https://nago.nl/lijsten/722>
+  a skos:Concept ;
+  rdfs:label "schilders naar locatie of context" ;
+  skos:prefLabel "schilders naar locatie of context" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300260891" .
+
+<https://nago.nl/lijsten/723>
+  a skos:Concept ;
+  rdfs:label "olieverfschetsen" ;
+  skos:prefLabel "olieverfschetsen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300033690" .
+
+<https://nago.nl/lijsten/724>
+  a skos:Concept ;
+  rdfs:label "tekenaars" ;
+  skos:prefLabel "tekenaars" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300112172" .
+
+<https://nago.nl/lijsten/725>
+  a skos:Concept ;
+  rdfs:label "art nouveau" ;
+  skos:prefLabel "art nouveau" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021430" .
+
+<https://nago.nl/lijsten/726>
+  a skos:Concept ;
+  rdfs:label "eigendom (wettelijk begrip)" ;
+  skos:prefLabel "eigendom (wettelijk begrip)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055588" .
+
+<https://nago.nl/lijsten/727>
+  a skos:Concept ;
+  rdfs:label "rotsschilderingen" ;
+  skos:prefLabel "rotsschilderingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300080123" .
+
+<https://nago.nl/lijsten/728>
+  a skos:Concept ;
+  rdfs:label "stadsplanning" ;
+  skos:prefLabel "stadsplanning" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054427" .
+
+<https://nago.nl/lijsten/729>
+  a skos:Concept ;
+  rdfs:label "nationale feestdagen" ;
+  skos:prefLabel "nationale feestdagen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300162823" .
+
+<https://nago.nl/lijsten/730>
+  a skos:Concept ;
+  rdfs:label "meubilair" ;
+  skos:prefLabel "meubilair" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300037680" .
+
+<https://nago.nl/lijsten/731>
+  a skos:Concept ;
+  rdfs:label "uitvoering" ;
+  skos:prefLabel "uitvoering" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069715" .
+
+<https://nago.nl/lijsten/732>
+  a skos:Concept ;
+  rdfs:label "gebouwen" ;
+  skos:prefLabel "gebouwen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300004792" .
+
+<https://nago.nl/lijsten/733>
+  a skos:Concept ;
+  rdfs:label "Japanse stijlen" ;
+  skos:prefLabel "Japanse stijlen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300121292" .
+
+<https://nago.nl/lijsten/734>
+  a skos:Concept ;
+  rdfs:label "Japanse stijlen" ;
+  skos:prefLabel "Japanse stijlen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300121292" .
+
+<https://nago.nl/lijsten/735>
+  a skos:Concept ;
+  rdfs:label "typografie" ;
+  skos:prefLabel "typografie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300195853" .
+
+<https://nago.nl/lijsten/736>
+  a skos:Concept ;
+  rdfs:label "landschappen (omgevingen)" ;
+  skos:prefLabel "landschappen (omgevingen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008626" .
+
+<https://nago.nl/lijsten/737>
+  a skos:Concept ;
+  rdfs:label "portretten" ;
+  skos:prefLabel "portretten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015637" .
+
+<https://nago.nl/lijsten/738>
+  a skos:Concept ;
+  rdfs:label "leerlingen" ;
+  skos:prefLabel "leerlingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025911" .
+
+<https://nago.nl/lijsten/739>
+  a skos:Concept ;
+  rdfs:label "Vlaams" ;
+  skos:prefLabel "Vlaams" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "00111184" .
+
+<https://nago.nl/lijsten/740>
+  a skos:Concept ;
+  rdfs:label "Hollands" ;
+  skos:prefLabel "Hollands" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111175" .
+
+<https://nago.nl/lijsten/741>
+  a skos:Concept ;
+  rdfs:label "kunstschilders" ;
+  skos:prefLabel "kunstschilders" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025136" .
+
+<https://nago.nl/lijsten/742>
+  a skos:Concept ;
+  rdfs:label "beeldhouwers" ;
+  skos:prefLabel "beeldhouwers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025181" .
+
+<https://nago.nl/lijsten/743>
+  a skos:Concept ;
+  rdfs:label "Engels" ;
+  skos:prefLabel "Engels" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111178" .
+
+<https://nago.nl/lijsten/744>
+  a skos:Concept ;
+  rdfs:label "Peruaans" ;
+  skos:prefLabel "Peruaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300107971" .
+
+<https://nago.nl/lijsten/745>
+  a skos:Concept ;
+  rdfs:label "Mexicaans" ;
+  skos:prefLabel "Mexicaans" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300107963" .
+
+<https://nago.nl/lijsten/746>
+  a skos:Concept ;
+  rdfs:label "religieus beeldmateriaal" ;
+  skos:prefLabel "religieus beeldmateriaal" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300234093" .
+
+<https://nago.nl/lijsten/747>
+  a skos:Concept ;
+  rdfs:label "fauvistisch" ;
+  skos:prefLabel "fauvistisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021300" .
+
+<https://nago.nl/lijsten/748>
+  a skos:Concept ;
+  rdfs:label "grafisch ontwerpers" ;
+  skos:prefLabel "grafisch ontwerpers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025119" .
+
+<https://nago.nl/lijsten/749>
+  a skos:Concept ;
+  rdfs:label "Noors" ;
+  skos:prefLabel "Noors" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111201" .
+
+<https://nago.nl/lijsten/750>
+  a skos:Concept ;
+  rdfs:label "Belgisch" ;
+  skos:prefLabel "Belgisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111156" .
+
+<https://nago.nl/lijsten/751>
+  a skos:Concept ;
+  rdfs:label "etsers" ;
+  skos:prefLabel "etsers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025174" .
+
+<https://nago.nl/lijsten/752>
+  a skos:Concept ;
+  rdfs:label "West-Guinese kuststijlen" ;
+  skos:prefLabel "West-Guinese kuststijlen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015910" .
+
+<https://nago.nl/lijsten/753>
+  a skos:Concept ;
+  rdfs:label "collecties" ;
+  skos:prefLabel "collecties" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025976" .
+
+<https://nago.nl/lijsten/754>
+  a skos:Concept ;
+  rdfs:label "Pools" ;
+  skos:prefLabel "Pools" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111204" .
+
+<https://nago.nl/lijsten/755>
+  a skos:Concept ;
+  rdfs:label "kunst" ;
+  skos:prefLabel "kunst" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054138" .
+
+<https://nago.nl/lijsten/756>
+  a skos:Concept ;
+  rdfs:label "scheepvaart" ;
+  skos:prefLabel "scheepvaart" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300068773" .
+
+<https://nago.nl/lijsten/757>
+  a skos:Concept ;
+  rdfs:label "hanebalken" ;
+  skos:prefLabel "hanebalken" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300078937" .
+
+<https://nago.nl/lijsten/758>
+  a skos:Concept ;
+  rdfs:label "bankgebouwen" ;
+  skos:prefLabel "bankgebouwen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300005214" .
+
+<https://nago.nl/lijsten/759>
+  a skos:Concept ;
+  rdfs:label "model" ;
+  skos:prefLabel "model" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300247279" .
+
+<https://nago.nl/lijsten/760>
+  a skos:Concept ;
+  rdfs:label "havens" ;
+  skos:prefLabel "havens" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008678" .
+
+<https://nago.nl/lijsten/761>
+  a skos:Concept ;
+  rdfs:label "bunkers" ;
+  skos:prefLabel "bunkers" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300006940" .
+
+<https://nago.nl/lijsten/762>
+  a skos:Concept ;
+  rdfs:label "milieu's (objectgroepen)" ;
+  skos:prefLabel "milieu's (objectgroepen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055325" .
+
+<https://nago.nl/lijsten/763>
+  a skos:Concept ;
+  rdfs:label "ingenieurs" ;
+  skos:prefLabel "ingenieurs" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025063" .
+
+<https://nago.nl/lijsten/764>
+  a skos:Concept ;
+  rdfs:label "kinderen" ;
+  skos:prefLabel "kinderen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025945" .
+
+<https://nago.nl/lijsten/765>
+  a skos:Concept ;
+  rdfs:label "projecten" ;
+  skos:prefLabel "projecten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300048788" .
+
+<https://nago.nl/lijsten/766>
+  a skos:Concept ;
+  rdfs:label "kwaliteit" ;
+  skos:prefLabel "kwaliteit" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300179462" .
+
+<https://nago.nl/lijsten/767>
+  a skos:Concept ;
+  rdfs:label "valleien" ;
+  skos:prefLabel "valleien" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008761" .
+
+<https://nago.nl/lijsten/768>
+  a skos:Concept ;
+  rdfs:label "diplomaten" ;
+  skos:prefLabel "diplomaten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025462" .
+
+<https://nago.nl/lijsten/769>
+  a skos:Concept ;
+  rdfs:label "stillevens" ;
+  skos:prefLabel "stillevens" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015638" .
+
+<https://nago.nl/lijsten/770>
+  a skos:Concept ;
+  rdfs:label "expressionistisch" ;
+  skos:prefLabel "expressionistisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300021502" .
+
+<https://nago.nl/lijsten/771>
+  a skos:Concept ;
+  rdfs:label "Nieuw item" ;
+  skos:prefLabel "Nieuw item" ;
+  skos:broader <https://nago.nl/lijsten/391> .
+
+<https://nago.nl/lijsten/772>
+  a skos:Concept ;
+  rdfs:label "Brits" ;
+  skos:prefLabel "Brits" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300111159" .
+
+<https://nago.nl/lijsten/773>
+  a skos:Concept ;
+  rdfs:label "hedendaagse kunst" ;
+  skos:prefLabel "hedendaagse kunst" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300264737" .
+
+<https://nago.nl/lijsten/774>
+  a skos:Concept ;
+  rdfs:label "middeleeuws" ;
+  skos:prefLabel "middeleeuws" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300020756" .
+
+<https://nago.nl/lijsten/775>
+  a skos:Concept ;
+  rdfs:label "hoofdsteden" ;
+  skos:prefLabel "hoofdsteden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008410" .
+
+<https://nago.nl/lijsten/776>
+  a skos:Concept ;
+  rdfs:label "borduurwerk" ;
+  skos:prefLabel "borduurwerk" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300264024" .
+
+<https://nago.nl/lijsten/777>
+  a skos:Concept ;
+  rdfs:label "Indonesisch" ;
+  skos:prefLabel "Indonesisch" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300018704" .
+
+<https://nago.nl/lijsten/778>
+  a skos:Concept ;
+  rdfs:label "keramisten" ;
+  skos:prefLabel "keramisten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300025388" .
+
+<https://nago.nl/lijsten/779>
+  a skos:Concept ;
+  rdfs:label "hol" ;
+  skos:prefLabel "hol" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300163023" .
+
+<https://nago.nl/lijsten/780>
+  a skos:Concept ;
+  rdfs:label "bewoners" ;
+  skos:prefLabel "bewoners" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300266051" .
+
+<https://nago.nl/lijsten/781>
+  a skos:Concept ;
+  rdfs:label "nomaden" ;
+  skos:prefLabel "nomaden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300252844" .
+
+<https://nago.nl/lijsten/782>
+  a skos:Concept ;
+  rdfs:label "mythen" ;
+  skos:prefLabel "mythen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300201023" .
+
+<https://nago.nl/lijsten/783>
+  a skos:Concept ;
+  rdfs:label "magie" ;
+  skos:prefLabel "magie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300054590" .
+
+<https://nago.nl/lijsten/784>
+  a skos:Concept ;
+  rdfs:label "bevolking" ;
+  skos:prefLabel "bevolking" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055417" .
+
+<https://nago.nl/lijsten/785>
+  a skos:Concept ;
+  rdfs:label "Tellem" ;
+  skos:prefLabel "Tellem" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300015774" .
+
+<https://nago.nl/lijsten/786>
+  a skos:Concept ;
+  rdfs:label "stranden" ;
+  skos:prefLabel "stranden" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300008816" .
+
+<https://nago.nl/lijsten/787>
+  a skos:Concept ;
+  rdfs:label "kaarten (informatiedragers)" ;
+  skos:prefLabel "kaarten (informatiedragers)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300026756" .
+
+<https://nago.nl/lijsten/788>
+  a skos:Concept ;
+  rdfs:label "energie" ;
+  skos:prefLabel "energie" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300056007" .
+
+<https://nago.nl/lijsten/789>
+  a skos:Concept ;
+  rdfs:label "natuurwetenschappen" ;
+  skos:prefLabel "natuurwetenschappen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300233656" .
+
+<https://nago.nl/lijsten/790>
+  a skos:Concept ;
+  rdfs:label "analytische functies" ;
+  skos:prefLabel "analytische functies" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300069734" .
+
+<https://nago.nl/lijsten/791>
+  a skos:Concept ;
+  rdfs:label "laboratoria" ;
+  skos:prefLabel "laboratoria" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300007660" .
+
+<https://nago.nl/lijsten/792>
+  a skos:Concept ;
+  rdfs:label "complexen (gebouwen)" ;
+  skos:prefLabel "complexen (gebouwen)" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300000202" .
+
+<https://nago.nl/lijsten/793>
+  a skos:Concept ;
+  rdfs:label "pakpapier" ;
+  skos:prefLabel "pakpapier" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300014177" .
+
+<https://nago.nl/lijsten/794>
+  a skos:Concept ;
+  rdfs:label "violisten" ;
+  skos:prefLabel "violisten" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300235044" .
+
+<https://nago.nl/lijsten/795>
+  a skos:Concept ;
+  rdfs:label "Argentijns" ;
+  skos:prefLabel "Argentijns" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300107965" .
+
+<https://nago.nl/lijsten/796>
+  a skos:Concept ;
+  rdfs:label "avant-garde" ;
+  skos:prefLabel "avant-garde" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300055775" .
+
+<https://nago.nl/lijsten/797>
+  a skos:Concept ;
+  rdfs:label "lente" ;
+  skos:prefLabel "lente" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300133097" .
+
+<https://nago.nl/lijsten/798>
+  a skos:Concept ;
+  rdfs:label "uitnodigingen" ;
+  skos:prefLabel "uitnodigingen" ;
+  skos:broader <https://nago.nl/lijsten/391> ;
+  skos:note "300027083" .
+

@@ -1,0 +1,483 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://nago.nl/tentoonstelling/1>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Amphilex 2002" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/1/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-08-30" ;
+    crm:P82b_end_of_the_end "2002-09-03"
+  ] .
+
+<https://nago.nl/tentoonstelling/1/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Amphilex 2002" .
+
+<https://nago.nl/tentoonstelling/4>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Klankteksten Konkrete poëzie Visuele teksten" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/4/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1970-00-00" ;
+    crm:P82b_end_of_the_end "1970-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/4/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Klankteksten Konkrete poëzie Visuele teksten" .
+
+<https://nago.nl/tentoonstelling/5>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Atelier 8" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/5/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1971-00-00" ;
+    crm:P82b_end_of_the_end "1971-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/5/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Atelier 8" .
+
+<https://nago.nl/tentoonstelling/6>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Geprogrammeerde grafiek" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/6/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1986-00-00" ;
+    crm:P82b_end_of_the_end "1986-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/6/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Geprogrammeerde grafiek" .
+
+<https://nago.nl/tentoonstelling/7>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Prenten in reliëf" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/7/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1996-00-00" ;
+    crm:P82b_end_of_the_end "1996-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/7/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Prenten in reliëf" .
+
+<https://nago.nl/tentoonstelling/8>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Die Neue Sammlung" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/8/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1993-00-00" ;
+    crm:P82b_end_of_the_end "1993-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/8/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Die Neue Sammlung" .
+
+<https://nago.nl/tentoonstelling/10>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Ontwerp Total Design" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/10/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1983-00-00" ;
+    crm:P82b_end_of_the_end "1983-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/10/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Ontwerp Total Design" .
+
+<https://nago.nl/tentoonstelling/11>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Het konstante streven" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/11/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1983-00-00" ;
+    crm:P82b_end_of_the_end "1983-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/11/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Het konstante streven" .
+
+<https://nago.nl/tentoonstelling/12>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Teksten in papier" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/12/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1984-00-00" ;
+    crm:P82b_end_of_the_end "1984-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/12/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Teksten in papier" .
+
+<https://nago.nl/tentoonstelling/13>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Papierplastieken" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/13/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1984-00-00" ;
+    crm:P82b_end_of_the_end "1984-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/13/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Papierplastieken" .
+
+<https://nago.nl/tentoonstelling/14>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Papierkunst" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/14/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1986-00-00" ;
+    crm:P82b_end_of_the_end "1986-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/14/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Papierkunst" .
+
+<https://nago.nl/tentoonstelling/15>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Onvolmaakt Geheugen" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/15/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1987-00-00" ;
+    crm:P82b_end_of_the_end "1987-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/15/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Onvolmaakt Geheugen" .
+
+<https://nago.nl/tentoonstelling/16>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Children are the Rhythm of the World" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/16/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-00-00" ;
+    crm:P82b_end_of_the_end "2002-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/16/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Children are the Rhythm of the World" .
+
+<https://nago.nl/tentoonstelling/18>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Ben Bos, 25 jaar Total Designer" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/18/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1988-00-00" ;
+    crm:P82b_end_of_the_end "1988-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/18/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Ben Bos, 25 jaar Total Designer" .
+
+<https://nago.nl/tentoonstelling/20>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "GVN groepstentoonstelling" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/20/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1981-00-00" ;
+    crm:P82b_end_of_the_end "1981-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/20/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "GVN groepstentoonstelling" .
+
+<https://nago.nl/tentoonstelling/21>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling München" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/21/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1980-00-00" ;
+    crm:P82b_end_of_the_end "1980-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/21/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling München" .
+
+<https://nago.nl/tentoonstelling/22>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling Montreal" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/22/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1982-00-00" ;
+    crm:P82b_end_of_the_end "1982-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/22/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling Montreal" .
+
+<https://nago.nl/tentoonstelling/23>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling Gargonza" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/23/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1984-00-00" ;
+    crm:P82b_end_of_the_end "1984-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/23/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling Gargonza" .
+
+<https://nago.nl/tentoonstelling/24>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling Parijs" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/24/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2001-00-00" ;
+    crm:P82b_end_of_the_end "2001-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/24/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling Parijs" .
+
+<https://nago.nl/tentoonstelling/25>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling San Francisco" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/25/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-00-00" ;
+    crm:P82b_end_of_the_end "2002-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/25/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling San Francisco" .
+
+<https://nago.nl/tentoonstelling/26>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "AGI groepstentoonstelling Helsinki" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/26/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2003-00-00" ;
+    crm:P82b_end_of_the_end "2003-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/26/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "AGI groepstentoonstelling Helsinki" .
+
+<https://nago.nl/tentoonstelling/27>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Europa 2020" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/27/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-00-00" ;
+    crm:P82b_end_of_the_end "2002-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/27/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Europa 2020" .
+
+<https://nago.nl/tentoonstelling/28>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "otto treumann graphic designer" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/28/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1975-03-04" ;
+    crm:P82b_end_of_the_end "1975-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/28/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "otto treumann graphic designer" .
+
+<https://nago.nl/tentoonstelling/29>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Weerbare Democratie" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/29/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1945-00-00" ;
+    crm:P82b_end_of_the_end "1945-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/29/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Weerbare Democratie" .
+
+<https://nago.nl/tentoonstelling/30>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Overzichtstentoonstelling Werkmanprijs" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/30/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1969-00-00" ;
+    crm:P82b_end_of_the_end "1969-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/30/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Overzichtstentoonstelling Werkmanprijs" .
+
+<https://nago.nl/tentoonstelling/31>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Jan Bons, affiches" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/31/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1975-00-00" ;
+    crm:P82b_end_of_the_end "1975-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/31/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Jan Bons, affiches" .
+
+<https://nago.nl/tentoonstelling/32>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Jan Bons en Benno Wissing" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/32/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1993-00-00" ;
+    crm:P82b_end_of_the_end "1993-00-00"
+  ] .
+
+<https://nago.nl/tentoonstelling/32/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Jan Bons en Benno Wissing" .
+
+<https://nago.nl/tentoonstelling/33>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "90 affiches van Jan Bon" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/33/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2008-03-08" ;
+    crm:P82b_end_of_the_end "2008-05-12"
+  ] .
+
+<https://nago.nl/tentoonstelling/33/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "90 affiches van Jan Bon" .
+
+<https://nago.nl/tentoonstelling/34>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "90 affiches van Jan Bons" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/34/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2008-03-08" ;
+    crm:P82b_end_of_the_end "2008-05-12"
+  ] .
+
+<https://nago.nl/tentoonstelling/34/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "90 affiches van Jan Bons" .
+
+<https://nago.nl/tentoonstelling/35>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "150 jaar Nederlandse Kunst" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/35/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1963-07-06" ;
+    crm:P82b_end_of_the_end "1963-09-29"
+  ] .
+
+<https://nago.nl/tentoonstelling/35/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "150 jaar Nederlandse Kunst" .
+
+<https://nago.nl/tentoonstelling/36>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Andreu Ledoux" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/36/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1995-08-09" ;
+    crm:P82b_end_of_the_end "1995-10-03"
+  ] .
+
+<https://nago.nl/tentoonstelling/36/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Andreu Ledoux" .
+
+<https://nago.nl/tentoonstelling/37>
+  a crm:E7_Activity ;
+  crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+  rdfs:label "Nieuwe tentoonstelling" ;
+  crm:P1_is_identified_by <https://nago.nl/tentoonstelling/37/title> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "NULL" ;
+    crm:P82b_end_of_the_end "NULL"
+  ] .
+
+<https://nago.nl/tentoonstelling/37/title>
+  a crm:E33_E41_Linguistic_Appellation ;
+  crm:P190_has_symbolic_content "Nieuwe tentoonstelling" .
+

@@ -1,0 +1,34 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://nago.nl/archief/7>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/27>, <https://nago.nl/archief/28>, <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/27> a rico:RecordSet .
+<https://nago.nl/archief/28> a rico:RecordSet .
+<https://nago.nl/archief/38> a rico:RecordSet .
+<https://nago.nl/archief/12>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1>, <https://nago.nl/archief/13>, <https://nago.nl/archief/21>, <https://nago.nl/archief/22>, <https://nago.nl/archief/28>, <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/1> a rico:RecordSet .
+<https://nago.nl/archief/13> a rico:RecordSet .
+<https://nago.nl/archief/21>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/7>, <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/22> a rico:RecordSet .
+<https://nago.nl/archief/17>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/19> a rico:RecordSet .
+<https://nago.nl/archief/20>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/12>, <https://nago.nl/archief/13>, <https://nago.nl/archief/21>, <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/24>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/12>, <https://nago.nl/archief/27> .
+

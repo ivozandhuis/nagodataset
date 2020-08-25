@@ -1,0 +1,24 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+
+<https://nago.nl/archief/180>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/27> .
+
+<https://nago.nl/publicatie/27> a bf:Instance .
+<https://nago.nl/archief/222>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/28> .
+
+<https://nago.nl/publicatie/28> a bf:Instance .
+<https://nago.nl/archief/1507>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/33> .
+
+<https://nago.nl/publicatie/33> a bf:Instance .
+<https://nago.nl/archief/3037>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/publicatie/72> .
+
+<https://nago.nl/publicatie/72> a bf:Instance .

@@ -1,0 +1,23 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+
+<https://nago.nl/object/1306>
+  a crm:E22_Human-Made_Object ;
+  dc:relation <https://nago.nl/publicatie/3> .
+
+<https://nago.nl/publicatie/3> a bf:Instance .
+<https://nago.nl/object/12510>
+  a crm:E22_Human-Made_Object ;
+  dc:relation <https://nago.nl/publicatie/27> .
+
+<https://nago.nl/publicatie/27> a bf:Instance .
+<https://nago.nl/object/14402>
+  a crm:E22_Human-Made_Object ;
+  dc:relation <https://nago.nl/publicatie/36> .
+
+<https://nago.nl/publicatie/36> a bf:Instance .
+<https://nago.nl/object/14446>
+  a crm:E22_Human-Made_Object ;
+  dc:relation <https://nago.nl/publicatie/36> .
+

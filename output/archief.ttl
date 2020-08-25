@@ -1,0 +1,852 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+<https://nago.nl/archief/1>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/1/title> ;
+  rico:identifiedBy <https://nago.nl/archief/1/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/1/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/1/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/1/instantiation> .
+
+<https://nago.nl/archief/1/title>
+  a rico:Title ;
+  rico:textualValue "Jurriaan Schrofer" ;
+  rico:isTitleOf <https://nago.nl/archief/1> .
+
+<https://nago.nl/archief/1/id>
+  a rico:Identifier ;
+  rico:textualValue "12" ;
+  rico:identifies <https://nago.nl/archief/1> .
+
+<https://nago.nl/archief/1/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1948-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/1> .
+
+<https://nago.nl/archief/1/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1990-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/1> .
+
+<https://nago.nl/archief/1/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "270 dozen en los materiaal" ;
+  rico:instantiates <https://nago.nl/archief/1> .
+
+<https://nago.nl/archief/2>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/2/title> ;
+  rico:identifiedBy <https://nago.nl/archief/2/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/2/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/2/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/2/instantiation> .
+
+<https://nago.nl/archief/2/title>
+  a rico:Title ;
+  rico:textualValue "Gerard Wernars" ;
+  rico:isTitleOf <https://nago.nl/archief/2> .
+
+<https://nago.nl/archief/2/id>
+  a rico:Identifier ;
+  rico:textualValue "4" ;
+  rico:identifies <https://nago.nl/archief/2> .
+
+<https://nago.nl/archief/2/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1947-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/2> .
+
+<https://nago.nl/archief/2/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1998-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/2> .
+
+<https://nago.nl/archief/2/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "11 dozen (271 objecten)" ;
+  rico:instantiates <https://nago.nl/archief/2> .
+
+<https://nago.nl/archief/4>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/4/title> ;
+  rico:identifiedBy <https://nago.nl/archief/4/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/4/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/4/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/4/instantiation> .
+
+<https://nago.nl/archief/4/title>
+  a rico:Title ;
+  rico:textualValue "Otto Treumann" ;
+  rico:isTitleOf <https://nago.nl/archief/4> .
+
+<https://nago.nl/archief/4/id>
+  a rico:Identifier ;
+  rico:textualValue "2" ;
+  rico:identifies <https://nago.nl/archief/4> .
+
+<https://nago.nl/archief/4/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1937-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/4> .
+
+<https://nago.nl/archief/4/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2001-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/4> .
+
+<https://nago.nl/archief/4/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "139 archiefdozen, prentendozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/4> .
+
+<https://nago.nl/archief/5>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/5/title> ;
+  rico:identifiedBy <https://nago.nl/archief/5/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/5/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/5/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/5/instantiation> .
+
+<https://nago.nl/archief/5/title>
+  a rico:Title ;
+  rico:textualValue "Hard Werken" ;
+  rico:isTitleOf <https://nago.nl/archief/5> .
+
+<https://nago.nl/archief/5/id>
+  a rico:Identifier ;
+  rico:textualValue "9" ;
+  rico:identifies <https://nago.nl/archief/5> .
+
+<https://nago.nl/archief/5/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1972-01-01" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/5> .
+
+<https://nago.nl/archief/5/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1994-01-01" ;
+  rico:isEndDateOf <https://nago.nl/archief/5> .
+
+<https://nago.nl/archief/5/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "99 dozen" ;
+  rico:instantiates <https://nago.nl/archief/5> .
+
+<https://nago.nl/archief/6>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/6/title> ;
+  rico:identifiedBy <https://nago.nl/archief/6/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/6/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/6/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/6/instantiation> .
+
+<https://nago.nl/archief/6/title>
+  a rico:Title ;
+  rico:textualValue "Karel Suyling" ;
+  rico:isTitleOf <https://nago.nl/archief/6> .
+
+<https://nago.nl/archief/6/id>
+  a rico:Identifier ;
+  rico:textualValue "5" ;
+  rico:identifies <https://nago.nl/archief/6> .
+
+<https://nago.nl/archief/6/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1950-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/6> .
+
+<https://nago.nl/archief/6/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1997-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/6> .
+
+<https://nago.nl/archief/6/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "26 dozen" ;
+  rico:instantiates <https://nago.nl/archief/6> .
+
+<https://nago.nl/archief/7>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/7/title> ;
+  rico:identifiedBy <https://nago.nl/archief/7/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/7/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/7/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/7/instantiation> .
+
+<https://nago.nl/archief/7/title>
+  a rico:Title ;
+  rico:textualValue "Holland Festival" ;
+  rico:isTitleOf <https://nago.nl/archief/7> .
+
+<https://nago.nl/archief/7/id>
+  a rico:Identifier ;
+  rico:textualValue "11" ;
+  rico:identifies <https://nago.nl/archief/7> .
+
+<https://nago.nl/archief/7/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1948-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/7> .
+
+<https://nago.nl/archief/7/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1998-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/7> .
+
+<https://nago.nl/archief/7/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "562 prenten- en archiefdozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/7> .
+
+<https://nago.nl/archief/8>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/8/title> ;
+  rico:identifiedBy <https://nago.nl/archief/8/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/8/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/8/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/8/instantiation> .
+
+<https://nago.nl/archief/8/title>
+  a rico:Title ;
+  rico:textualValue "Ralph Prins" ;
+  rico:isTitleOf <https://nago.nl/archief/8> .
+
+<https://nago.nl/archief/8/id>
+  a rico:Identifier ;
+  rico:textualValue "7" ;
+  rico:identifies <https://nago.nl/archief/8> .
+
+<https://nago.nl/archief/8/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1947-01-01" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/8> .
+
+<https://nago.nl/archief/8/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1997-01-01" ;
+  rico:isEndDateOf <https://nago.nl/archief/8> .
+
+<https://nago.nl/archief/8/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "24 dozen" ;
+  rico:instantiates <https://nago.nl/archief/8> .
+
+<https://nago.nl/archief/9>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/9/title> ;
+  rico:identifiedBy <https://nago.nl/archief/9/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/9/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/9/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/9/instantiation> .
+
+<https://nago.nl/archief/9/title>
+  a rico:Title ;
+  rico:textualValue "Jan van Keulen" ;
+  rico:isTitleOf <https://nago.nl/archief/9> .
+
+<https://nago.nl/archief/9/id>
+  a rico:Identifier ;
+  rico:textualValue "8" ;
+  rico:identifies <https://nago.nl/archief/9> .
+
+<https://nago.nl/archief/9/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1947-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/9> .
+
+<https://nago.nl/archief/9/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1989-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/9> .
+
+<https://nago.nl/archief/9/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "" ;
+  rico:instantiates <https://nago.nl/archief/9> .
+
+<https://nago.nl/archief/10>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/10/title> ;
+  rico:identifiedBy <https://nago.nl/archief/10/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/10/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/10/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/10/instantiation> .
+
+<https://nago.nl/archief/10/title>
+  a rico:Title ;
+  rico:textualValue "Pieter Brattinga" ;
+  rico:isTitleOf <https://nago.nl/archief/10> .
+
+<https://nago.nl/archief/10/id>
+  a rico:Identifier ;
+  rico:textualValue "14" ;
+  rico:identifies <https://nago.nl/archief/10> .
+
+<https://nago.nl/archief/10/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1933-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/10> .
+
+<https://nago.nl/archief/10/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2004-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/10> .
+
+<https://nago.nl/archief/10/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "782 beschrijvingen in 30 archiefdozen, 35 prentendozen, 1 affichedoos en 5 affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/10> .
+
+<https://nago.nl/archief/12>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/12/title> ;
+  rico:identifiedBy <https://nago.nl/archief/12/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/12/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/12/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/12/instantiation> .
+
+<https://nago.nl/archief/12/title>
+  a rico:Title ;
+  rico:textualValue "Total Design" ;
+  rico:isTitleOf <https://nago.nl/archief/12> .
+
+<https://nago.nl/archief/12/id>
+  a rico:Identifier ;
+  rico:textualValue "13" ;
+  rico:identifies <https://nago.nl/archief/12> .
+
+<https://nago.nl/archief/12/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1955-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/12> .
+
+<https://nago.nl/archief/12/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1999-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/12> .
+
+<https://nago.nl/archief/12/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "724 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/12> .
+
+<https://nago.nl/archief/13>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/13/title> ;
+  rico:identifiedBy <https://nago.nl/archief/13/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/13/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/13/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/13/instantiation> .
+
+<https://nago.nl/archief/13/title>
+  a rico:Title ;
+  rico:textualValue "Ben Bos" ;
+  rico:isTitleOf <https://nago.nl/archief/13> .
+
+<https://nago.nl/archief/13/id>
+  a rico:Identifier ;
+  rico:textualValue "15" ;
+  rico:identifies <https://nago.nl/archief/13> .
+
+<https://nago.nl/archief/13/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1934-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/13> .
+
+<https://nago.nl/archief/13/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2005-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/13> .
+
+<https://nago.nl/archief/13/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "52 prenten- en archiefdozen, 8 affichemappen en 2 rollendozen" ;
+  rico:instantiates <https://nago.nl/archief/13> .
+
+<https://nago.nl/archief/15>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/15/title> ;
+  rico:identifiedBy <https://nago.nl/archief/15/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/15/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/15/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/15/instantiation> .
+
+<https://nago.nl/archief/15/title>
+  a rico:Title ;
+  rico:textualValue "Jan Bons" ;
+  rico:isTitleOf <https://nago.nl/archief/15> .
+
+<https://nago.nl/archief/15/id>
+  a rico:Identifier ;
+  rico:textualValue "3" ;
+  rico:identifies <https://nago.nl/archief/15> .
+
+<https://nago.nl/archief/15/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1946-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/15> .
+
+<https://nago.nl/archief/15/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2002-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/15> .
+
+<https://nago.nl/archief/15/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "48 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/15> .
+
+<https://nago.nl/archief/17>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/17/title> ;
+  rico:identifiedBy <https://nago.nl/archief/17/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/17/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/17/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/17/instantiation> .
+
+<https://nago.nl/archief/17/title>
+  a rico:Title ;
+  rico:textualValue "Dick Elffers" ;
+  rico:isTitleOf <https://nago.nl/archief/17> .
+
+<https://nago.nl/archief/17/id>
+  a rico:Identifier ;
+  rico:textualValue "1" ;
+  rico:identifies <https://nago.nl/archief/17> .
+
+<https://nago.nl/archief/17/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1935-01-01" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/17> .
+
+<https://nago.nl/archief/17/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1990-01-01" ;
+  rico:isEndDateOf <https://nago.nl/archief/17> .
+
+<https://nago.nl/archief/17/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "32 prentdozen en 9 affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/17> .
+
+<https://nago.nl/archief/19>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/19/title> ;
+  rico:identifiedBy <https://nago.nl/archief/19/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/19/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/19/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/19/instantiation> .
+
+<https://nago.nl/archief/19/title>
+  a rico:Title ;
+  rico:textualValue "Wild Plakken" ;
+  rico:isTitleOf <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/19/id>
+  a rico:Identifier ;
+  rico:textualValue "17" ;
+  rico:identifies <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/19/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1970-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/19/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1996-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/19/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "59 affichemappen, 58 prenten- en archiefdozen, 5 museumdozen, 3 verhuisdozen, 1 affichedoos en 1 los stuk" ;
+  rico:instantiates <https://nago.nl/archief/19> .
+
+<https://nago.nl/archief/20>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/20/title> ;
+  rico:identifiedBy <https://nago.nl/archief/20/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/20/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/20/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/20/instantiation> .
+
+<https://nago.nl/archief/20/title>
+  a rico:Title ;
+  rico:textualValue "Wim Crouwel" ;
+  rico:isTitleOf <https://nago.nl/archief/20> .
+
+<https://nago.nl/archief/20/id>
+  a rico:Identifier ;
+  rico:textualValue "18" ;
+  rico:identifies <https://nago.nl/archief/20> .
+
+<https://nago.nl/archief/20/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "2006-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/20> .
+
+<https://nago.nl/archief/20/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2008-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/20> .
+
+<https://nago.nl/archief/20/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "79 dozen" ;
+  rico:instantiates <https://nago.nl/archief/20> .
+
+<https://nago.nl/archief/22>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/22/title> ;
+  rico:identifiedBy <https://nago.nl/archief/22/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/22/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/22/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/22/instantiation> .
+
+<https://nago.nl/archief/22/title>
+  a rico:Title ;
+  rico:textualValue "Jolijn van de Wouw" ;
+  rico:isTitleOf <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/22/id>
+  a rico:Identifier ;
+  rico:textualValue "19" ;
+  rico:identifies <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/22/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1972-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/22/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2001-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/22/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "61 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/22> .
+
+<https://nago.nl/archief/23>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/23/title> ;
+  rico:identifiedBy <https://nago.nl/archief/23/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/23/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/23/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/23/instantiation> .
+
+<https://nago.nl/archief/23/title>
+  a rico:Title ;
+  rico:textualValue "Ko Sliggers" ;
+  rico:isTitleOf <https://nago.nl/archief/23> .
+
+<https://nago.nl/archief/23/id>
+  a rico:Identifier ;
+  rico:textualValue "20" ;
+  rico:identifies <https://nago.nl/archief/23> .
+
+<https://nago.nl/archief/23/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1975-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/23> .
+
+<https://nago.nl/archief/23/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2005-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/23> .
+
+<https://nago.nl/archief/23/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "37 dozen" ;
+  rico:instantiates <https://nago.nl/archief/23> .
+
+<https://nago.nl/archief/24>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/24/title> ;
+  rico:identifiedBy <https://nago.nl/archief/24/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/24/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/24/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/24/instantiation> .
+
+<https://nago.nl/archief/24/title>
+  a rico:Title ;
+  rico:textualValue "Tel Design" ;
+  rico:isTitleOf <https://nago.nl/archief/24> .
+
+<https://nago.nl/archief/24/id>
+  a rico:Identifier ;
+  rico:textualValue "21" ;
+  rico:identifies <https://nago.nl/archief/24> .
+
+<https://nago.nl/archief/24/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1962-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/24> .
+
+<https://nago.nl/archief/24/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2002-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/24> .
+
+<https://nago.nl/archief/24/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "346 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/24> .
+
+<https://nago.nl/archief/25>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/25/title> ;
+  rico:identifiedBy <https://nago.nl/archief/25/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/25/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/25/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/25/instantiation> .
+
+<https://nago.nl/archief/25/title>
+  a rico:Title ;
+  rico:textualValue "UNA" ;
+  rico:isTitleOf <https://nago.nl/archief/25> .
+
+<https://nago.nl/archief/25/id>
+  a rico:Identifier ;
+  rico:textualValue "22" ;
+  rico:identifies <https://nago.nl/archief/25> .
+
+<https://nago.nl/archief/25/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1968-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/25> .
+
+<https://nago.nl/archief/25/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2007-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/25> .
+
+<https://nago.nl/archief/25/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "222 archiefdozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/25> .
+
+<https://nago.nl/archief/27>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/27/title> ;
+  rico:identifiedBy <https://nago.nl/archief/27/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/27/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/27/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/27/instantiation> .
+
+<https://nago.nl/archief/27/title>
+  a rico:Title ;
+  rico:textualValue "Studio Dumbar" ;
+  rico:isTitleOf <https://nago.nl/archief/27> .
+
+<https://nago.nl/archief/27/id>
+  a rico:Identifier ;
+  rico:textualValue "23" ;
+  rico:identifies <https://nago.nl/archief/27> .
+
+<https://nago.nl/archief/27/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1975-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/27> .
+
+<https://nago.nl/archief/27/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2004-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/27> .
+
+<https://nago.nl/archief/27/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "496 dozen" ;
+  rico:instantiates <https://nago.nl/archief/27> .
+
+<https://nago.nl/archief/28>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/28/title> ;
+  rico:identifiedBy <https://nago.nl/archief/28/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/28/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/28/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/28/instantiation> .
+
+<https://nago.nl/archief/28/title>
+  a rico:Title ;
+  rico:textualValue "Benno Wissing" ;
+  rico:isTitleOf <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/28/id>
+  a rico:Identifier ;
+  rico:textualValue "24" ;
+  rico:identifies <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/28/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1923-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/28/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2008-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/28/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "62 dozen" ;
+  rico:instantiates <https://nago.nl/archief/28> .
+
+<https://nago.nl/archief/33>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/33/title> ;
+  rico:identifiedBy <https://nago.nl/archief/33/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/33/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/33/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/33/instantiation> .
+
+<https://nago.nl/archief/33/title>
+  a rico:Title ;
+  rico:textualValue "Joop Istha" ;
+  rico:isTitleOf <https://nago.nl/archief/33> .
+
+<https://nago.nl/archief/33/id>
+  a rico:Identifier ;
+  rico:textualValue "25" ;
+  rico:identifies <https://nago.nl/archief/33> .
+
+<https://nago.nl/archief/33/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1960-01-01" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/33> .
+
+<https://nago.nl/archief/33/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "1990-01-01" ;
+  rico:isEndDateOf <https://nago.nl/archief/33> .
+
+<https://nago.nl/archief/33/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "4000 technische werktekeningen" ;
+  rico:instantiates <https://nago.nl/archief/33> .
+
+<https://nago.nl/archief/37>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/37/title> ;
+  rico:identifiedBy <https://nago.nl/archief/37/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/37/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/37/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/37/instantiation> .
+
+<https://nago.nl/archief/37/title>
+  a rico:Title ;
+  rico:textualValue "Ootje Oxenaar" ;
+  rico:isTitleOf <https://nago.nl/archief/37> .
+
+<https://nago.nl/archief/37/id>
+  a rico:Identifier ;
+  rico:textualValue "26" ;
+  rico:identifies <https://nago.nl/archief/37> .
+
+<https://nago.nl/archief/37/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1945-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/37> .
+
+<https://nago.nl/archief/37/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2008-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/37> .
+
+<https://nago.nl/archief/37/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "23 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/37> .
+
+<https://nago.nl/archief/38>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/38/title> ;
+  rico:identifiedBy <https://nago.nl/archief/38/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/38/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/38/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/38/instantiation> .
+
+<https://nago.nl/archief/38/title>
+  a rico:Title ;
+  rico:textualValue "Anthon Beeke" ;
+  rico:isTitleOf <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/38/id>
+  a rico:Identifier ;
+  rico:textualValue "30" ;
+  rico:identifies <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/38/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1963-00-00" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/38/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2010-00-00" ;
+  rico:isEndDateOf <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/38/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "65 dozen en affichemappen" ;
+  rico:instantiates <https://nago.nl/archief/38> .
+
+<https://nago.nl/archief/41>
+  a rico:RecordSet ;
+  rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fond> ;
+  rico:hasTitle <https://nago.nl/archief/41/title> ;
+  rico:identifiedBy <https://nago.nl/archief/41/id> ;
+  rico:hasBeginningDate <https://nago.nl/archief/41/begindate> ;
+  rico:hasEndDate <https://nago.nl/archief/41/enddate> ;
+  rico:hasInstantiation <https://nago.nl/archief/41/instantiation> .
+
+<https://nago.nl/archief/41/title>
+  a rico:Title ;
+  rico:textualValue "Susanne Heynemann" ;
+  rico:isTitleOf <https://nago.nl/archief/41> .
+
+<https://nago.nl/archief/41/id>
+  a rico:Identifier ;
+  rico:textualValue "28" ;
+  rico:identifies <https://nago.nl/archief/41> .
+
+<https://nago.nl/archief/41/begindate>
+  a rico:Date ;
+  rico:normalizedDateValue "1940-01-01" ;
+  rico:isBeginningDateOf <https://nago.nl/archief/41> .
+
+<https://nago.nl/archief/41/enddate>
+  a rico:Date ;
+  rico:normalizedDateValue "2009-03-12" ;
+  rico:isEndDateOf <https://nago.nl/archief/41> .
+
+<https://nago.nl/archief/41/instantiation>
+  a rico:Instantiation ;
+  rico:instantiationExtent "87 dozen" ;
+  rico:instantiates <https://nago.nl/archief/41> .
+

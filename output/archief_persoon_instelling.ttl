@@ -1,0 +1,169 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+<https://nago.nl/archief/1>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1> ;
+  rico:heldBy <https://nago.nl/agent/5862> .
+
+<https://nago.nl/agent/1> a rico:Agent .
+<https://nago.nl/agent/5862> a rico:Agent .
+<https://nago.nl/archief/2>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/456> ;
+  rico:heldBy <https://nago.nl/agent/734> .
+
+<https://nago.nl/agent/456> a rico:Agent .
+<https://nago.nl/agent/734> a rico:Agent .
+<https://nago.nl/archief/3>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/556> ;
+  rico:heldBy <https://nago.nl/agent/734> .
+
+<https://nago.nl/agent/556> a rico:Agent .
+<https://nago.nl/archief/4>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/681> .
+
+<https://nago.nl/agent/681> a rico:Agent .
+<https://nago.nl/archief/6>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1499> ;
+  rico:heldBy <https://nago.nl/agent/5328> .
+
+<https://nago.nl/agent/1499> a rico:Agent .
+<https://nago.nl/agent/5328> a rico:Agent .
+<https://nago.nl/archief/7>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/511> ;
+  rico:heldBy <https://nago.nl/agent/1830> .
+
+<https://nago.nl/agent/511> a rico:Agent .
+<https://nago.nl/agent/1830> a rico:Agent .
+<https://nago.nl/archief/9>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2199> ;
+  rico:heldBy <https://nago.nl/agent/3185> .
+
+<https://nago.nl/agent/2199> a rico:Agent .
+<https://nago.nl/agent/3185> a rico:Agent .
+<https://nago.nl/archief/10>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2280> ;
+  rico:heldBy <https://nago.nl/agent/734> .
+
+<https://nago.nl/agent/2280> a rico:Agent .
+<https://nago.nl/archief/12>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1627> ;
+  rico:heldBy <https://nago.nl/agent/4362>, <https://nago.nl/agent/4924> .
+
+<https://nago.nl/agent/1627> a rico:Agent .
+<https://nago.nl/agent/4362> a rico:Agent .
+<https://nago.nl/agent/4924> a rico:Agent .
+<https://nago.nl/archief/13>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2337> ;
+  rico:heldBy <https://nago.nl/agent/734> .
+
+<https://nago.nl/agent/2337> a rico:Agent .
+<https://nago.nl/archief/15>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2479>, <https://nago.nl/agent/2920> .
+
+<https://nago.nl/agent/2479> a rico:Agent .
+<https://nago.nl/agent/2920> a rico:Agent .
+<https://nago.nl/archief/17>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/158> ;
+  rico:heldBy <https://nago.nl/agent/475> .
+
+<https://nago.nl/agent/158> a rico:Agent .
+<https://nago.nl/agent/475> a rico:Agent .
+<https://nago.nl/archief/19>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1725>, <https://nago.nl/agent/1726>, <https://nago.nl/agent/1769>, <https://nago.nl/agent/1770>, <https://nago.nl/agent/2983>, <https://nago.nl/agent/3194> ;
+  rico:heldBy <https://nago.nl/agent/3435> .
+
+<https://nago.nl/agent/1725> a rico:Agent .
+<https://nago.nl/agent/1726> a rico:Agent .
+<https://nago.nl/agent/1769> a rico:Agent .
+<https://nago.nl/agent/1770> a rico:Agent .
+<https://nago.nl/agent/2983> a rico:Agent .
+<https://nago.nl/agent/3194> a rico:Agent .
+<https://nago.nl/agent/3435> a rico:Agent .
+<https://nago.nl/archief/20>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/151> ;
+  rico:heldBy <https://nago.nl/agent/475> .
+
+<https://nago.nl/agent/151> a rico:Agent .
+<https://nago.nl/archief/21>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1630> ;
+  rico:heldBy <https://nago.nl/agent/365> .
+
+<https://nago.nl/agent/1630> a rico:Agent .
+<https://nago.nl/agent/365> a rico:Agent .
+<https://nago.nl/archief/22>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2463> ;
+  rico:heldBy <https://nago.nl/agent/4362> .
+
+<https://nago.nl/agent/2463> a rico:Agent .
+<https://nago.nl/archief/23>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1854> ;
+  rico:heldBy <https://nago.nl/agent/5862> .
+
+<https://nago.nl/agent/1854> a rico:Agent .
+<https://nago.nl/archief/24>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/3914> ;
+  rico:heldBy <https://nago.nl/agent/4361> .
+
+<https://nago.nl/agent/3914> a rico:Agent .
+<https://nago.nl/agent/4361> a rico:Agent .
+<https://nago.nl/archief/25>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/4936> .
+
+<https://nago.nl/agent/4936> a rico:Agent .
+<https://nago.nl/archief/27>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1700>, <https://nago.nl/agent/3898> ;
+  rico:heldBy <https://nago.nl/agent/4361> .
+
+<https://nago.nl/agent/1700> a rico:Agent .
+<https://nago.nl/agent/3898> a rico:Agent .
+<https://nago.nl/archief/28>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1630> ;
+  rico:heldBy <https://nago.nl/agent/734> .
+
+<https://nago.nl/archief/33>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/5882> ;
+  rico:heldBy <https://nago.nl/agent/2476> .
+
+<https://nago.nl/agent/5882> a rico:Agent .
+<https://nago.nl/agent/2476> a rico:Agent .
+<https://nago.nl/archief/37>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/2446> ;
+  rico:heldBy <https://nago.nl/agent/5328> .
+
+<https://nago.nl/agent/2446> a rico:Agent .
+<https://nago.nl/archief/38>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/1629>, <https://nago.nl/agent/1826>, <https://nago.nl/agent/5794>, <https://nago.nl/agent/5886> ;
+  rico:heldBy <https://nago.nl/agent/734>, <https://nago.nl/agent/5328>, <https://nago.nl/agent/5862> .
+
+<https://nago.nl/agent/1629> a rico:Agent .
+<https://nago.nl/agent/1826> a rico:Agent .
+<https://nago.nl/agent/5794> a rico:Agent .
+<https://nago.nl/agent/5886> a rico:Agent .
+<https://nago.nl/archief/41>
+  a rico:RecordSet ;
+  rico:accumulatedBy <https://nago.nl/agent/5755> .
+
+<https://nago.nl/agent/5755> a rico:Agent .

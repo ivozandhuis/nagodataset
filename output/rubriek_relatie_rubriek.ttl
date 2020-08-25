@@ -1,0 +1,931 @@
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://nago.nl/archief/143>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2542> .
+
+<https://nago.nl/archief/2542> a rico:RecordSet .
+<https://nago.nl/archief/147>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2795> .
+
+<https://nago.nl/archief/2795> a rico:RecordSet .
+<https://nago.nl/archief/173>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2507> .
+
+<https://nago.nl/archief/2507> a rico:RecordSet .
+<https://nago.nl/archief/198>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2591> .
+
+<https://nago.nl/archief/2591> a rico:RecordSet .
+<https://nago.nl/archief/205>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/2756>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/619>, <https://nago.nl/archief/2497>, <https://nago.nl/archief/2548> .
+
+<https://nago.nl/archief/206>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2164> .
+
+<https://nago.nl/archief/2164> a rico:RecordSet .
+<https://nago.nl/archief/318>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2664> .
+
+<https://nago.nl/archief/2664> a rico:RecordSet .
+<https://nago.nl/archief/410>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/2539> a rico:RecordSet .
+<https://nago.nl/archief/424>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/433>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/561>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1648>, <https://nago.nl/archief/2509> .
+
+<https://nago.nl/archief/1648>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/567>, <https://nago.nl/archief/960>, <https://nago.nl/archief/2509> .
+
+<https://nago.nl/archief/2509>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/567>, <https://nago.nl/archief/3327> .
+
+<https://nago.nl/archief/575>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2500> .
+
+<https://nago.nl/archief/2500> a rico:RecordSet .
+<https://nago.nl/archief/631>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2521> .
+
+<https://nago.nl/archief/2521> a rico:RecordSet .
+<https://nago.nl/archief/667>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2718> .
+
+<https://nago.nl/archief/2718> a rico:RecordSet .
+<https://nago.nl/archief/681>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2497> .
+
+<https://nago.nl/archief/2497> a rico:RecordSet .
+<https://nago.nl/archief/686>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1909>, <https://nago.nl/archief/2791> .
+
+<https://nago.nl/archief/1909>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2791> .
+
+<https://nago.nl/archief/2791> a rico:RecordSet .
+<https://nago.nl/archief/698>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2695> .
+
+<https://nago.nl/archief/2695> a rico:RecordSet .
+<https://nago.nl/archief/700>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2609> .
+
+<https://nago.nl/archief/2609> a rico:RecordSet .
+<https://nago.nl/archief/704>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2546> .
+
+<https://nago.nl/archief/2546> a rico:RecordSet .
+<https://nago.nl/archief/705>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2546> .
+
+<https://nago.nl/archief/901>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/930>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2723> .
+
+<https://nago.nl/archief/2723> a rico:RecordSet .
+<https://nago.nl/archief/960>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2509> .
+
+<https://nago.nl/archief/1082>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2122> .
+
+<https://nago.nl/archief/2122> a rico:RecordSet .
+<https://nago.nl/archief/1113>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1095> .
+
+<https://nago.nl/archief/1095> a rico:RecordSet .
+<https://nago.nl/archief/1115>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1144> .
+
+<https://nago.nl/archief/1144> a rico:RecordSet .
+<https://nago.nl/archief/1142>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1655> .
+
+<https://nago.nl/archief/1655>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1074>, <https://nago.nl/archief/2544>, <https://nago.nl/archief/3305>, <https://nago.nl/archief/3375> .
+
+<https://nago.nl/archief/1160>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/1204>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2500> .
+
+<https://nago.nl/archief/1205>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2164> .
+
+<https://nago.nl/archief/1394>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1800> .
+
+<https://nago.nl/archief/1800> a rico:RecordSet .
+<https://nago.nl/archief/1418>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2497> .
+
+<https://nago.nl/archief/1566>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2517> .
+
+<https://nago.nl/archief/2517> a rico:RecordSet .
+<https://nago.nl/archief/1575>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2594> .
+
+<https://nago.nl/archief/2594> a rico:RecordSet .
+<https://nago.nl/archief/1576>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2497> .
+
+<https://nago.nl/archief/1579>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2537> .
+
+<https://nago.nl/archief/2537> a rico:RecordSet .
+<https://nago.nl/archief/1581>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2931> .
+
+<https://nago.nl/archief/2931> a rico:RecordSet .
+<https://nago.nl/archief/1584>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2788> .
+
+<https://nago.nl/archief/2788>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/571> .
+
+<https://nago.nl/archief/1590>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2602> .
+
+<https://nago.nl/archief/2602> a rico:RecordSet .
+<https://nago.nl/archief/1591>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2621> .
+
+<https://nago.nl/archief/2621> a rico:RecordSet .
+<https://nago.nl/archief/1592>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2718> .
+
+<https://nago.nl/archief/1595>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2551> .
+
+<https://nago.nl/archief/2551> a rico:RecordSet .
+<https://nago.nl/archief/1599>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2832> .
+
+<https://nago.nl/archief/2832> a rico:RecordSet .
+<https://nago.nl/archief/1600>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2503> .
+
+<https://nago.nl/archief/2503>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/623>, <https://nago.nl/archief/1349>, <https://nago.nl/archief/2548> .
+
+<https://nago.nl/archief/1602>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1916>, <https://nago.nl/archief/2712> .
+
+<https://nago.nl/archief/1916>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2712> .
+
+<https://nago.nl/archief/2712> a rico:RecordSet .
+<https://nago.nl/archief/1603>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2535> .
+
+<https://nago.nl/archief/2535> a rico:RecordSet .
+<https://nago.nl/archief/1605>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2525> .
+
+<https://nago.nl/archief/2525> a rico:RecordSet .
+<https://nago.nl/archief/1609>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2539> .
+
+<https://nago.nl/archief/1610>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2930> .
+
+<https://nago.nl/archief/2930> a rico:RecordSet .
+<https://nago.nl/archief/1613>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1614> .
+
+<https://nago.nl/archief/1614> a rico:RecordSet .
+<https://nago.nl/archief/1615>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1909>, <https://nago.nl/archief/2791> .
+
+<https://nago.nl/archief/1616>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2791> .
+
+<https://nago.nl/archief/1624>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2578>, <https://nago.nl/archief/3507> .
+
+<https://nago.nl/archief/2578>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3507> .
+
+<https://nago.nl/archief/3507> a rico:RecordSet .
+<https://nago.nl/archief/1626>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2639> .
+
+<https://nago.nl/archief/2639> a rico:RecordSet .
+<https://nago.nl/archief/1633>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1918> .
+
+<https://nago.nl/archief/1918> a rico:RecordSet .
+<https://nago.nl/archief/1637>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1907> .
+
+<https://nago.nl/archief/1907> a rico:RecordSet .
+<https://nago.nl/archief/1640>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2934> .
+
+<https://nago.nl/archief/2934> a rico:RecordSet .
+<https://nago.nl/archief/1642>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2612> .
+
+<https://nago.nl/archief/2612> a rico:RecordSet .
+<https://nago.nl/archief/1644>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2596> .
+
+<https://nago.nl/archief/2596> a rico:RecordSet .
+<https://nago.nl/archief/1647>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2665> .
+
+<https://nago.nl/archief/2665> a rico:RecordSet .
+<https://nago.nl/archief/567> a rico:RecordSet .
+<https://nago.nl/archief/1074> a rico:RecordSet .
+<https://nago.nl/archief/2544>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3305>, <https://nago.nl/archief/3375>, <https://nago.nl/archief/3509> .
+
+<https://nago.nl/archief/3305> a rico:RecordSet .
+<https://nago.nl/archief/3375>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3305> .
+
+<https://nago.nl/archief/1708>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2326> .
+
+<https://nago.nl/archief/2326> a rico:RecordSet .
+<https://nago.nl/archief/1720>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1874> .
+
+<https://nago.nl/archief/1874> a rico:RecordSet .
+<https://nago.nl/archief/1721>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1783>, <https://nago.nl/archief/2503> .
+
+<https://nago.nl/archief/1783>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2547> .
+
+<https://nago.nl/archief/1722>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1791>, <https://nago.nl/archief/2503> .
+
+<https://nago.nl/archief/1791> a rico:RecordSet .
+<https://nago.nl/archief/1737>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2514> .
+
+<https://nago.nl/archief/2514> a rico:RecordSet .
+<https://nago.nl/archief/1757>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1822> .
+
+<https://nago.nl/archief/1822> a rico:RecordSet .
+<https://nago.nl/archief/1761>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2514> .
+
+<https://nago.nl/archief/1763>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/1772>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1791> .
+
+<https://nago.nl/archief/1782>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1791> .
+
+<https://nago.nl/archief/2547>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1349> .
+
+<https://nago.nl/archief/1785>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1773> .
+
+<https://nago.nl/archief/1773> a rico:RecordSet .
+<https://nago.nl/archief/1809>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1798>, <https://nago.nl/archief/1826>, <https://nago.nl/archief/1829> .
+
+<https://nago.nl/archief/1798> a rico:RecordSet .
+<https://nago.nl/archief/1826>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1798>, <https://nago.nl/archief/1829> .
+
+<https://nago.nl/archief/1829>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1798> .
+
+<https://nago.nl/archief/1831>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2546> .
+
+<https://nago.nl/archief/1837>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2584> .
+
+<https://nago.nl/archief/2584> a rico:RecordSet .
+<https://nago.nl/archief/1838>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2501> .
+
+<https://nago.nl/archief/2501> a rico:RecordSet .
+<https://nago.nl/archief/1839>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2646> .
+
+<https://nago.nl/archief/2646> a rico:RecordSet .
+<https://nago.nl/archief/1842>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2582> .
+
+<https://nago.nl/archief/2582> a rico:RecordSet .
+<https://nago.nl/archief/1843>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1842>, <https://nago.nl/archief/2582> .
+
+<https://nago.nl/archief/1845>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1841> .
+
+<https://nago.nl/archief/1841> a rico:RecordSet .
+<https://nago.nl/archief/1871>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2722> .
+
+<https://nago.nl/archief/2722> a rico:RecordSet .
+<https://nago.nl/archief/1904>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1589> .
+
+<https://nago.nl/archief/1589> a rico:RecordSet .
+<https://nago.nl/archief/1905>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1576>, <https://nago.nl/archief/2497> .
+
+<https://nago.nl/archief/1908>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1616>, <https://nago.nl/archief/2791> .
+
+<https://nago.nl/archief/1914>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1640>, <https://nago.nl/archief/2934> .
+
+<https://nago.nl/archief/1917>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1642>, <https://nago.nl/archief/2612> .
+
+<https://nago.nl/archief/1922>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/606>, <https://nago.nl/archief/2596> .
+
+<https://nago.nl/archief/606> a rico:RecordSet .
+<https://nago.nl/archief/1925>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2674> .
+
+<https://nago.nl/archief/2674> a rico:RecordSet .
+<https://nago.nl/archief/1927>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/606>, <https://nago.nl/archief/1923> .
+
+<https://nago.nl/archief/1923> a rico:RecordSet .
+<https://nago.nl/archief/1929>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2523> .
+
+<https://nago.nl/archief/2523> a rico:RecordSet .
+<https://nago.nl/archief/1932>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/1935>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2596> .
+
+<https://nago.nl/archief/1936>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2602> .
+
+<https://nago.nl/archief/1940>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2547> .
+
+<https://nago.nl/archief/1941>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2710> .
+
+<https://nago.nl/archief/2710> a rico:RecordSet .
+<https://nago.nl/archief/1942>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2938> .
+
+<https://nago.nl/archief/2938> a rico:RecordSet .
+<https://nago.nl/archief/1943>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/1944> .
+
+<https://nago.nl/archief/1944> a rico:RecordSet .
+<https://nago.nl/archief/1950>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2933> .
+
+<https://nago.nl/archief/2933> a rico:RecordSet .
+<https://nago.nl/archief/1999>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2008> .
+
+<https://nago.nl/archief/2008> a rico:RecordSet .
+<https://nago.nl/archief/2000>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2007> .
+
+<https://nago.nl/archief/2007> a rico:RecordSet .
+<https://nago.nl/archief/2015>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2737> .
+
+<https://nago.nl/archief/2737> a rico:RecordSet .
+<https://nago.nl/archief/2061>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2162> .
+
+<https://nago.nl/archief/2162> a rico:RecordSet .
+<https://nago.nl/archief/2073>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3319> .
+
+<https://nago.nl/archief/3319> a rico:RecordSet .
+<https://nago.nl/archief/2080>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2476> .
+
+<https://nago.nl/archief/2476> a rico:RecordSet .
+<https://nago.nl/archief/2098>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2349>, <https://nago.nl/archief/2351> .
+
+<https://nago.nl/archief/2349>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2351> .
+
+<https://nago.nl/archief/2351> a rico:RecordSet .
+<https://nago.nl/archief/2153>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2350> .
+
+<https://nago.nl/archief/2350> a rico:RecordSet .
+<https://nago.nl/archief/2155>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2152> .
+
+<https://nago.nl/archief/2152> a rico:RecordSet .
+<https://nago.nl/archief/2195>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2196>, <https://nago.nl/archief/2198> .
+
+<https://nago.nl/archief/2196>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2198> .
+
+<https://nago.nl/archief/2198> a rico:RecordSet .
+<https://nago.nl/archief/2217>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2305> .
+
+<https://nago.nl/archief/2305> a rico:RecordSet .
+<https://nago.nl/archief/2219>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2201> .
+
+<https://nago.nl/archief/2201> a rico:RecordSet .
+<https://nago.nl/archief/2223>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2387> .
+
+<https://nago.nl/archief/2387> a rico:RecordSet .
+<https://nago.nl/archief/2233>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2268> .
+
+<https://nago.nl/archief/2268>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2271> .
+
+<https://nago.nl/archief/2240>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2245> .
+
+<https://nago.nl/archief/2245> a rico:RecordSet .
+<https://nago.nl/archief/2259>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2257> .
+
+<https://nago.nl/archief/2257> a rico:RecordSet .
+<https://nago.nl/archief/2271> a rico:RecordSet .
+<https://nago.nl/archief/2273>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2243> .
+
+<https://nago.nl/archief/2243> a rico:RecordSet .
+<https://nago.nl/archief/2276>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2278> .
+
+<https://nago.nl/archief/2278> a rico:RecordSet .
+<https://nago.nl/archief/2279>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2362> .
+
+<https://nago.nl/archief/2362> a rico:RecordSet .
+<https://nago.nl/archief/2288>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2301> .
+
+<https://nago.nl/archief/2301> a rico:RecordSet .
+<https://nago.nl/archief/2306>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2162> .
+
+<https://nago.nl/archief/2319>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2320> .
+
+<https://nago.nl/archief/2320> a rico:RecordSet .
+<https://nago.nl/archief/2321>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2500> .
+
+<https://nago.nl/archief/2328>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2201> .
+
+<https://nago.nl/archief/2330>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2162> .
+
+<https://nago.nl/archief/2340>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2509> .
+
+<https://nago.nl/archief/2358>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2264> .
+
+<https://nago.nl/archief/2264> a rico:RecordSet .
+<https://nago.nl/archief/2359>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2362> .
+
+<https://nago.nl/archief/2361>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2264> .
+
+<https://nago.nl/archief/2365>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2411> .
+
+<https://nago.nl/archief/2411> a rico:RecordSet .
+<https://nago.nl/archief/2366>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2279>, <https://nago.nl/archief/2359>, <https://nago.nl/archief/2362> .
+
+<https://nago.nl/archief/2373>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2372>, <https://nago.nl/archief/2377> .
+
+<https://nago.nl/archief/2372> a rico:RecordSet .
+<https://nago.nl/archief/2377>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2372> .
+
+<https://nago.nl/archief/2379>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2174> .
+
+<https://nago.nl/archief/2174> a rico:RecordSet .
+<https://nago.nl/archief/2382>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2164> .
+
+<https://nago.nl/archief/2383>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2414> .
+
+<https://nago.nl/archief/2414> a rico:RecordSet .
+<https://nago.nl/archief/2388>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2121> .
+
+<https://nago.nl/archief/2121> a rico:RecordSet .
+<https://nago.nl/archief/2389>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2182> .
+
+<https://nago.nl/archief/2182> a rico:RecordSet .
+<https://nago.nl/archief/2395>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2254> .
+
+<https://nago.nl/archief/2254> a rico:RecordSet .
+<https://nago.nl/archief/2398>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2404> .
+
+<https://nago.nl/archief/2404> a rico:RecordSet .
+<https://nago.nl/archief/2408>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2166> .
+
+<https://nago.nl/archief/2166> a rico:RecordSet .
+<https://nago.nl/archief/2410>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2098>, <https://nago.nl/archief/2351> .
+
+<https://nago.nl/archief/2412>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2248> .
+
+<https://nago.nl/archief/2248> a rico:RecordSet .
+<https://nago.nl/archief/2418>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2433> .
+
+<https://nago.nl/archief/2433> a rico:RecordSet .
+<https://nago.nl/archief/2422>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2154> .
+
+<https://nago.nl/archief/2154> a rico:RecordSet .
+<https://nago.nl/archief/2438>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2435> .
+
+<https://nago.nl/archief/2435> a rico:RecordSet .
+<https://nago.nl/archief/2469>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2153> .
+
+<https://nago.nl/archief/2471>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2099> .
+
+<https://nago.nl/archief/2099> a rico:RecordSet .
+<https://nago.nl/archief/2472>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2098>, <https://nago.nl/archief/2349>, <https://nago.nl/archief/2351> .
+
+<https://nago.nl/archief/2473>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2089> .
+
+<https://nago.nl/archief/2089> a rico:RecordSet .
+<https://nago.nl/archief/2474>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2350> .
+
+<https://nago.nl/archief/2475>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2372> .
+
+<https://nago.nl/archief/2477>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2752> .
+
+<https://nago.nl/archief/2752> a rico:RecordSet .
+<https://nago.nl/archief/2494>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2664> .
+
+<https://nago.nl/archief/623> a rico:RecordSet .
+<https://nago.nl/archief/1349> a rico:RecordSet .
+<https://nago.nl/archief/2548>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/623>, <https://nago.nl/archief/1349> .
+
+<https://nago.nl/archief/3327>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3251>, <https://nago.nl/archief/3492> .
+
+<https://nago.nl/archief/2516>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2578> .
+
+<https://nago.nl/archief/2536>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/608> .
+
+<https://nago.nl/archief/608> a rico:RecordSet .
+<https://nago.nl/archief/3509> a rico:RecordSet .
+<https://nago.nl/archief/2545>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/2549>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/618> .
+
+<https://nago.nl/archief/618> a rico:RecordSet .
+<https://nago.nl/archief/2550>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3508> .
+
+<https://nago.nl/archief/3508> a rico:RecordSet .
+<https://nago.nl/archief/2558>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2819>, <https://nago.nl/archief/2824> .
+
+<https://nago.nl/archief/2819>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2824> .
+
+<https://nago.nl/archief/2824> a rico:RecordSet .
+<https://nago.nl/archief/2593>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2591> .
+
+<https://nago.nl/archief/2597>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2590> .
+
+<https://nago.nl/archief/2590> a rico:RecordSet .
+<https://nago.nl/archief/2603>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/702> .
+
+<https://nago.nl/archief/702> a rico:RecordSet .
+<https://nago.nl/archief/2626>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3318> .
+
+<https://nago.nl/archief/3318> a rico:RecordSet .
+<https://nago.nl/archief/2659>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/618> .
+
+<https://nago.nl/archief/2692>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3347> .
+
+<https://nago.nl/archief/3347> a rico:RecordSet .
+<https://nago.nl/archief/2703>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/567>, <https://nago.nl/archief/619>, <https://nago.nl/archief/2509>, <https://nago.nl/archief/2539>, <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/619> a rico:RecordSet .
+<https://nago.nl/archief/2716>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2793> .
+
+<https://nago.nl/archief/2793> a rico:RecordSet .
+<https://nago.nl/archief/2734>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2733> .
+
+<https://nago.nl/archief/2733> a rico:RecordSet .
+<https://nago.nl/archief/2743>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2756> .
+
+<https://nago.nl/archief/2753>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3510> .
+
+<https://nago.nl/archief/3510> a rico:RecordSet .
+<https://nago.nl/archief/571> a rico:RecordSet .
+<https://nago.nl/archief/2823>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/2646> .
+
+<https://nago.nl/archief/2835>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/571> .
+
+<https://nago.nl/archief/2963>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3327> .
+
+<https://nago.nl/archief/2965>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/702> .
+
+<https://nago.nl/archief/3208>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3264> .
+
+<https://nago.nl/archief/3264> a rico:RecordSet .
+<https://nago.nl/archief/3251>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3492> .
+
+<https://nago.nl/archief/3492> a rico:RecordSet .
+<https://nago.nl/archief/3283>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3346> .
+
+<https://nago.nl/archief/3346> a rico:RecordSet .
+<https://nago.nl/archief/3286>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3322> .
+
+<https://nago.nl/archief/3322> a rico:RecordSet .
+<https://nago.nl/archief/3295>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3600> .
+
+<https://nago.nl/archief/3600> a rico:RecordSet .
+<https://nago.nl/archief/3437>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3428>, <https://nago.nl/archief/3455> .
+
+<https://nago.nl/archief/3428> a rico:RecordSet .
+<https://nago.nl/archief/3455> a rico:RecordSet .
+<https://nago.nl/archief/3482>
+  a rico:RecordSet ;
+  dc:relation <https://nago.nl/archief/3486> .
+
+<https://nago.nl/archief/3486> a rico:RecordSet .

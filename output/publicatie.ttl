@@ -1,0 +1,872 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+
+<https://nago.nl/publicatie/20>
+  a bf:Instance ;
+  rdfs:label "Zienderogen" ;
+  bf:title <https://nago.nl/publicatie/20/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/20/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/20/publication> .
+
+<https://nago.nl/publicatie/20/title>
+  a bf:Title ;
+  rdfs:label "Zienderogen" .
+
+<https://nago.nl/publicatie/20/isbn>
+  a bf:Isbn ;
+  rdf:label "9070896060" .
+
+<https://nago.nl/publicatie/20/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:date "1988" ;
+  bf:place <https://nago.nl/lijsten/288> .
+
+<https://nago.nl/publicatie/27>
+  a bf:Instance ;
+  rdfs:label "Onvolmaakt Geheugen" ;
+  bf:title <https://nago.nl/publicatie/27/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/27/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/27/publication> .
+
+<https://nago.nl/publicatie/27/title>
+  a bf:Title ;
+  rdfs:label "Onvolmaakt Geheugen" .
+
+<https://nago.nl/publicatie/27/isbn>
+  a bf:Isbn ;
+  rdf:label "90-71180-11-5" .
+
+<https://nago.nl/publicatie/27/publication>
+  a bf:Publication ;
+  bf:agent "Bührmann-Ubbens" ;
+  bf:date "1988" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/28>
+  a bf:Instance ;
+  rdfs:label "Jurriaan Schrofer" ;
+  bf:title <https://nago.nl/publicatie/28/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/28/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/28/publication> .
+
+<https://nago.nl/publicatie/28/title>
+  a bf:Title ;
+  rdfs:label "Jurriaan Schrofer" .
+
+<https://nago.nl/publicatie/28/isbn>
+  a bf:Isbn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/28/publication>
+  a bf:Publication ;
+  bf:agent "Koninklijke drukkerij G.J. Thieme NV" ;
+  bf:date "1972" ;
+  bf:place <https://nago.nl/lijsten/350> .
+
+<https://nago.nl/publicatie/30>
+  a bf:Instance ;
+  rdfs:label "Ontwerpen voor het Holland Festival 1948 - 1990, Affiches" ;
+  bf:title <https://nago.nl/publicatie/30/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/30/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/30/publication> .
+
+<https://nago.nl/publicatie/30/title>
+  a bf:Title ;
+  rdfs:label "Ontwerpen voor het Holland Festival 1948 - 1990, Affiches" .
+
+<https://nago.nl/publicatie/30/isbn>
+  a bf:Isbn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/30/publication>
+  a bf:Publication ;
+  bf:agent "Uitgeverij Boxhorn" ;
+  bf:date "1990" ;
+  bf:place <https://nago.nl/lijsten/288> .
+
+<https://nago.nl/publicatie/34>
+  a bf:Instance ;
+  rdfs:label "Wild Plakken / Hard Werken" ;
+  bf:title <https://nago.nl/publicatie/34/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/34/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/34/publication> .
+
+<https://nago.nl/publicatie/34/title>
+  a bf:Title ;
+  rdfs:label "Wild Plakken / Hard Werken" .
+
+<https://nago.nl/publicatie/34/isbn>
+  a bf:Isbn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/34/publication>
+  a bf:Publication ;
+  bf:agent "Lecturis" ;
+  bf:date "1981" ;
+  bf:place <https://nago.nl/lijsten/315> .
+
+<https://nago.nl/publicatie/36>
+  a bf:Instance ;
+  rdfs:label "Benno Wissing. Oeuvreprijs 1996 Stichting Fonds voor beeldende kunsten, vormgeving en bouwkunst" ;
+  bf:title <https://nago.nl/publicatie/36/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/36/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/36/publication> .
+
+<https://nago.nl/publicatie/36/title>
+  a bf:Title ;
+  rdfs:label "Benno Wissing. Oeuvreprijs 1996 Stichting Fonds voor beeldende kunsten, vormgeving en bouwkunst" .
+
+<https://nago.nl/publicatie/36/isbn>
+  a bf:Isbn ;
+  rdf:label "907471918X" .
+
+<https://nago.nl/publicatie/36/publication>
+  a bf:Publication ;
+  bf:agent "Ekspress.zo" ;
+  bf:date "1996" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/37>
+  a bf:Instance ;
+  rdfs:label "Benno Wissing (deel 4 in de reeks Roots)" ;
+  bf:title <https://nago.nl/publicatie/37/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/37/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/37/publication> .
+
+<https://nago.nl/publicatie/37/title>
+  a bf:Title ;
+  rdfs:label "Benno Wissing (deel 4 in de reeks Roots)" .
+
+<https://nago.nl/publicatie/37/isbn>
+  a bf:Isbn ;
+  rdf:label "90-74009-40-9" .
+
+<https://nago.nl/publicatie/37/publication>
+  a bf:Publication ;
+  bf:agent "[Z]OO Producties" ;
+  bf:date "2006" ;
+  bf:place <https://nago.nl/lijsten/315> .
+
+<https://nago.nl/publicatie/38>
+  a bf:Instance ;
+  rdfs:label "Uiterlijke staat: goed. Wild Plakken in het NAGO archief" ;
+  bf:title <https://nago.nl/publicatie/38/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/38/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/38/publication> .
+
+<https://nago.nl/publicatie/38/title>
+  a bf:Title ;
+  rdfs:label "Uiterlijke staat: goed. Wild Plakken in het NAGO archief" .
+
+<https://nago.nl/publicatie/38/isbn>
+  a bf:Isbn ;
+  rdf:label "978-90-78638-01-8" .
+
+<https://nago.nl/publicatie/38/publication>
+  a bf:Publication ;
+  bf:agent "NAGO" ;
+  bf:date "2006" ;
+  bf:place <https://nago.nl/lijsten/294> .
+
+<https://nago.nl/publicatie/43>
+  a bf:Instance ;
+  rdfs:label "De schrijver krijgt wat hij verdient. Over de boekomslagen van Hard Werken" ;
+  bf:title <https://nago.nl/publicatie/43/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/43/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/43/publication> .
+
+<https://nago.nl/publicatie/43/title>
+  a bf:Title ;
+  rdfs:label "De schrijver krijgt wat hij verdient. Over de boekomslagen van Hard Werken" .
+
+<https://nago.nl/publicatie/43/isbn>
+  a bf:Isbn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/43/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:date "1984" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/46>
+  a bf:Instance ;
+  rdfs:label "Over tijdschriften" ;
+  bf:title <https://nago.nl/publicatie/46/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/46/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/46/publication> .
+
+<https://nago.nl/publicatie/46/title>
+  a bf:Title ;
+  rdfs:label "Over tijdschriften" .
+
+<https://nago.nl/publicatie/46/isbn>
+  a bf:Isbn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/46/publication>
+  a bf:Publication ;
+  bf:agent "Lecturis" ;
+  bf:date "1979" ;
+  bf:place <https://nago.nl/lijsten/315> .
+
+<https://nago.nl/publicatie/73>
+  a bf:Instance ;
+  rdfs:label "Jan Bons - ontwerpen in vrijheid" ;
+  bf:title <https://nago.nl/publicatie/73/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/73/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/73/publication> .
+
+<https://nago.nl/publicatie/73/title>
+  a bf:Title ;
+  rdfs:label "Jan Bons - ontwerpen in vrijheid" .
+
+<https://nago.nl/publicatie/73/isbn>
+  a bf:Isbn ;
+  rdf:label "9789076452197" .
+
+<https://nago.nl/publicatie/73/publication>
+  a bf:Publication ;
+  bf:agent "Uitgeverij De Buitenkant" ;
+  bf:date "2008" ;
+  bf:place <https://nago.nl/lijsten/288> .
+
+<https://nago.nl/publicatie/82>
+  a bf:Instance ;
+  rdfs:label "Susanne Heynemann" ;
+  bf:title <https://nago.nl/publicatie/82/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/82/isbn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/82/publication> .
+
+<https://nago.nl/publicatie/82/title>
+  a bf:Title ;
+  rdfs:label "Susanne Heynemann" .
+
+<https://nago.nl/publicatie/82/isbn>
+  a bf:Isbn ;
+  rdf:label "978-90-74009-60-7" .
+
+<https://nago.nl/publicatie/82/publication>
+  a bf:Publication ;
+  bf:agent "[Z]OO producties" ;
+  bf:date "2009" ;
+  bf:place <https://nago.nl/lijsten/315> .
+
+<https://nago.nl/publicatie/11>
+  a bf:Instance ;
+  schema:hasNumberOfPages "1" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/11/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/11/aflevering> .
+
+<https://nago.nl/publicatie/11/title>
+  a bf:Title ;
+  rdfs:label "Total Design" .
+
+<https://nago.nl/publicatie/11/aflevering>
+  a bf:Instance ;
+  rdfs:label "263 (sep)" ;
+  bf:isPartOf <https://nago.nl/publicatie/11/jaargang> .
+
+<https://nago.nl/publicatie/11/jaargang>
+  a bf:Instance ;
+  rdfs:label "45" ;
+  bf:date "1989" ;
+  bf:isPartOf <https://nago.nl/publicatie/11/periodical> .
+
+<https://nago.nl/publicatie/11/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/11/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/11/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/11/periodical/publication> .
+
+<https://nago.nl/publicatie/11/periodical/title>
+  a bf:Title ;
+  rdfs:label "Graphis : international journal of graphic art and applied art" .
+
+<https://nago.nl/publicatie/11/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/11/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/13>
+  a bf:Instance ;
+  schema:hasNumberOfPages "3" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/13/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/13/aflevering> .
+
+<https://nago.nl/publicatie/13/title>
+  a bf:Title ;
+  rdfs:label "40 jaar Total Design" .
+
+<https://nago.nl/publicatie/13/aflevering>
+  a bf:Instance ;
+  rdfs:label "3" ;
+  bf:isPartOf <https://nago.nl/publicatie/13/jaargang> .
+
+<https://nago.nl/publicatie/13/jaargang>
+  a bf:Instance ;
+  rdfs:label "14" ;
+  bf:date "2003" ;
+  bf:isPartOf <https://nago.nl/publicatie/13/periodical> .
+
+<https://nago.nl/publicatie/13/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/13/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/13/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/13/periodical/publication> .
+
+<https://nago.nl/publicatie/13/periodical/title>
+  a bf:Title ;
+  rdfs:label "PrePress" .
+
+<https://nago.nl/publicatie/13/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/13/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/14>
+  a bf:Instance ;
+  schema:hasNumberOfPages "1" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/14/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/14/aflevering> .
+
+<https://nago.nl/publicatie/14/title>
+  a bf:Title ;
+  rdfs:label "Total Design : a Dutch design and consultant group" .
+
+<https://nago.nl/publicatie/14/aflevering>
+  a bf:Instance ;
+  rdfs:label "220" ;
+  bf:isPartOf <https://nago.nl/publicatie/14/jaargang> .
+
+<https://nago.nl/publicatie/14/jaargang>
+  a bf:Instance ;
+  rdfs:label "38" ;
+  bf:date "1982" ;
+  bf:isPartOf <https://nago.nl/publicatie/14/periodical> .
+
+<https://nago.nl/publicatie/14/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/14/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/14/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/14/periodical/publication> .
+
+<https://nago.nl/publicatie/14/periodical/title>
+  a bf:Title ;
+  rdfs:label "Graphis : international journal of graphic art and applied art" .
+
+<https://nago.nl/publicatie/14/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/14/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/25>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/25/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/25/aflevering> .
+
+<https://nago.nl/publicatie/25/title>
+  a bf:Title ;
+  rdfs:label "Publikatie Automobile Citroën N.V. Amsterdam" .
+
+<https://nago.nl/publicatie/25/aflevering>
+  a bf:Instance ;
+  rdfs:label "25 november" ;
+  bf:isPartOf <https://nago.nl/publicatie/25/jaargang> .
+
+<https://nago.nl/publicatie/25/jaargang>
+  a bf:Instance ;
+  rdfs:label "17 (1992)" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/25/periodical> .
+
+<https://nago.nl/publicatie/25/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/25/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/25/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/25/periodical/publication> .
+
+<https://nago.nl/publicatie/25/periodical/title>
+  a bf:Title ;
+  rdfs:label "Compres" .
+
+<https://nago.nl/publicatie/25/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/25/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/293> .
+
+<https://nago.nl/publicatie/60>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/60/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/60/aflevering> .
+
+<https://nago.nl/publicatie/60/title>
+  a bf:Title ;
+  rdfs:label "A Proposition for Education in Letterforms and Handwriting" .
+
+<https://nago.nl/publicatie/60/aflevering>
+  a bf:Instance ;
+  rdfs:label "3" ;
+  bf:isPartOf <https://nago.nl/publicatie/60/jaargang> .
+
+<https://nago.nl/publicatie/60/jaargang>
+  a bf:Instance ;
+  rdfs:label "1974" ;
+  bf:date "1974" ;
+  bf:isPartOf <https://nago.nl/publicatie/60/periodical> .
+
+<https://nago.nl/publicatie/60/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/60/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/60/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/60/periodical/publication> .
+
+<https://nago.nl/publicatie/60/periodical/title>
+  a bf:Title ;
+  rdfs:label "The Journal of Typographic Research" .
+
+<https://nago.nl/publicatie/60/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/60/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/398> .
+
+<https://nago.nl/publicatie/61>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/61/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/61/aflevering> .
+
+<https://nago.nl/publicatie/61/title>
+  a bf:Title ;
+  rdfs:label "Type design for the computer age" .
+
+<https://nago.nl/publicatie/61/aflevering>
+  a bf:Instance ;
+  rdfs:label "4,1" ;
+  bf:isPartOf <https://nago.nl/publicatie/61/jaargang> .
+
+<https://nago.nl/publicatie/61/jaargang>
+  a bf:Instance ;
+  rdfs:label "1970" ;
+  bf:date "1970" ;
+  bf:isPartOf <https://nago.nl/publicatie/61/periodical> .
+
+<https://nago.nl/publicatie/61/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/61/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/61/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/61/periodical/publication> .
+
+<https://nago.nl/publicatie/61/periodical/title>
+  a bf:Title ;
+  rdfs:label "The Journal of Typographic Research" .
+
+<https://nago.nl/publicatie/61/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/61/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/398> .
+
+<https://nago.nl/publicatie/62>
+  a bf:Instance ;
+  schema:hasNumberOfPages "p.45" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/62/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/62/aflevering> .
+
+<https://nago.nl/publicatie/62/title>
+  a bf:Title ;
+  rdfs:label "De man achter de gele trein" .
+
+<https://nago.nl/publicatie/62/aflevering>
+  a bf:Instance ;
+  rdfs:label "" ;
+  bf:isPartOf <https://nago.nl/publicatie/62/jaargang> .
+
+<https://nago.nl/publicatie/62/jaargang>
+  a bf:Instance ;
+  rdfs:label "08-02-1992" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/62/periodical> .
+
+<https://nago.nl/publicatie/62/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/62/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/62/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/62/periodical/publication> .
+
+<https://nago.nl/publicatie/62/periodical/title>
+  a bf:Title ;
+  rdfs:label "Het Parool" .
+
+<https://nago.nl/publicatie/62/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/62/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/288> .
+
+<https://nago.nl/publicatie/63>
+  a bf:Instance ;
+  schema:hasNumberOfPages "p.29" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/63/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/63/aflevering> .
+
+<https://nago.nl/publicatie/63/title>
+  a bf:Title ;
+  rdfs:label "Ontwerpen is een creatief vak, en dat is per definitie vernieuwend. Een interview met Gert Dumbar" .
+
+<https://nago.nl/publicatie/63/aflevering>
+  a bf:Instance ;
+  rdfs:label "" ;
+  bf:isPartOf <https://nago.nl/publicatie/63/jaargang> .
+
+<https://nago.nl/publicatie/63/jaargang>
+  a bf:Instance ;
+  rdfs:label "06-02-1989" ;
+  bf:date "1989" ;
+  bf:isPartOf <https://nago.nl/publicatie/63/periodical> .
+
+<https://nago.nl/publicatie/63/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/63/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/63/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/63/periodical/publication> .
+
+<https://nago.nl/publicatie/63/periodical/title>
+  a bf:Title ;
+  rdfs:label "Onbekend" .
+
+<https://nago.nl/publicatie/63/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/63/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/64>
+  a bf:Instance ;
+  schema:hasNumberOfPages "p.45" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/64/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/64/aflevering> .
+
+<https://nago.nl/publicatie/64/title>
+  a bf:Title ;
+  rdfs:label "Ik ben een jazzjongen" .
+
+<https://nago.nl/publicatie/64/aflevering>
+  a bf:Instance ;
+  rdfs:label "" ;
+  bf:isPartOf <https://nago.nl/publicatie/64/jaargang> .
+
+<https://nago.nl/publicatie/64/jaargang>
+  a bf:Instance ;
+  rdfs:label "10-10-1992" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/64/periodical> .
+
+<https://nago.nl/publicatie/64/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/64/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/64/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/64/periodical/publication> .
+
+<https://nago.nl/publicatie/64/periodical/title>
+  a bf:Title ;
+  rdfs:label "Het Parool" .
+
+<https://nago.nl/publicatie/64/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/64/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/288> .
+
+<https://nago.nl/publicatie/65>
+  a bf:Instance ;
+  schema:hasNumberOfPages "p.49-51" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/65/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/65/aflevering> .
+
+<https://nago.nl/publicatie/65/title>
+  a bf:Title ;
+  rdfs:label "De wet van Bos" .
+
+<https://nago.nl/publicatie/65/aflevering>
+  a bf:Instance ;
+  rdfs:label "2" ;
+  bf:isPartOf <https://nago.nl/publicatie/65/jaargang> .
+
+<https://nago.nl/publicatie/65/jaargang>
+  a bf:Instance ;
+  rdfs:label "1991" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/65/periodical> .
+
+<https://nago.nl/publicatie/65/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/65/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/65/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/65/periodical/publication> .
+
+<https://nago.nl/publicatie/65/periodical/title>
+  a bf:Title ;
+  rdfs:label "Blad" .
+
+<https://nago.nl/publicatie/65/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/65/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/66>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "pp. 74-75" ;
+  bf:title <https://nago.nl/publicatie/66/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/66/aflevering> .
+
+<https://nago.nl/publicatie/66/title>
+  a bf:Title ;
+  rdfs:label "Tel Design gaf NS in vijftien maanden nieuw gezicht" .
+
+<https://nago.nl/publicatie/66/aflevering>
+  a bf:Instance ;
+  rdfs:label "" ;
+  bf:isPartOf <https://nago.nl/publicatie/66/jaargang> .
+
+<https://nago.nl/publicatie/66/jaargang>
+  a bf:Instance ;
+  rdfs:label "24-01-1968" ;
+  bf:date "1968" ;
+  bf:isPartOf <https://nago.nl/publicatie/66/periodical> .
+
+<https://nago.nl/publicatie/66/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/66/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/66/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/66/periodical/publication> .
+
+<https://nago.nl/publicatie/66/periodical/title>
+  a bf:Title ;
+  rdfs:label "Ariadne" .
+
+<https://nago.nl/publicatie/66/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/66/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/67>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "pp.204-206" ;
+  bf:title <https://nago.nl/publicatie/67/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/67/aflevering> .
+
+<https://nago.nl/publicatie/67/title>
+  a bf:Title ;
+  rdfs:label "Tel Design. Een toverbalteam" .
+
+<https://nago.nl/publicatie/67/aflevering>
+  a bf:Instance ;
+  rdfs:label "" ;
+  bf:isPartOf <https://nago.nl/publicatie/67/jaargang> .
+
+<https://nago.nl/publicatie/67/jaargang>
+  a bf:Instance ;
+  rdfs:label "15-2-1973" ;
+  bf:date "1973" ;
+  bf:isPartOf <https://nago.nl/publicatie/67/periodical> .
+
+<https://nago.nl/publicatie/67/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/67/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/67/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/67/periodical/publication> .
+
+<https://nago.nl/publicatie/67/periodical/title>
+  a bf:Title ;
+  rdfs:label "Ariadne" .
+
+<https://nago.nl/publicatie/67/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/67/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/68>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "" ;
+  bf:title <https://nago.nl/publicatie/68/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/68/aflevering> .
+
+<https://nago.nl/publicatie/68/title>
+  a bf:Title ;
+  rdfs:label "Tel Design: vormgeving in dertig jaar van woestijn tot designjungle" .
+
+<https://nago.nl/publicatie/68/aflevering>
+  a bf:Instance ;
+  rdfs:label "49" ;
+  bf:isPartOf <https://nago.nl/publicatie/68/jaargang> .
+
+<https://nago.nl/publicatie/68/jaargang>
+  a bf:Instance ;
+  rdfs:label "12-03-1992" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/68/periodical> .
+
+<https://nago.nl/publicatie/68/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/68/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/68/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/68/periodical/publication> .
+
+<https://nago.nl/publicatie/68/periodical/title>
+  a bf:Title ;
+  rdfs:label "Graficus" .
+
+<https://nago.nl/publicatie/68/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/68/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/69>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "pp.2-3" ;
+  bf:title <https://nago.nl/publicatie/69/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/69/aflevering> .
+
+<https://nago.nl/publicatie/69/title>
+  a bf:Title ;
+  rdfs:label "Tel viert jubileum op gepast moment: ontwerp-bezinning staat voor de deur" .
+
+<https://nago.nl/publicatie/69/aflevering>
+  a bf:Instance ;
+  rdfs:label "44" ;
+  bf:isPartOf <https://nago.nl/publicatie/69/jaargang> .
+
+<https://nago.nl/publicatie/69/jaargang>
+  a bf:Instance ;
+  rdfs:label "29-10-1992" ;
+  bf:date "1992" ;
+  bf:isPartOf <https://nago.nl/publicatie/69/periodical> .
+
+<https://nago.nl/publicatie/69/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/69/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/69/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/69/periodical/publication> .
+
+<https://nago.nl/publicatie/69/periodical/title>
+  a bf:Title ;
+  rdfs:label "Adformatie" .
+
+<https://nago.nl/publicatie/69/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/69/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
+<https://nago.nl/publicatie/70>
+  a bf:Instance ;
+  schema:hasNumberOfPages "" ;
+  schema:description "pp. 14-23" ;
+  bf:title <https://nago.nl/publicatie/70/title> ;
+  bf:isPartOf <https://nago.nl/publicatie/70/aflevering> .
+
+<https://nago.nl/publicatie/70/title>
+  a bf:Title ;
+  rdfs:label "Design in de supermarkt" .
+
+<https://nago.nl/publicatie/70/aflevering>
+  a bf:Instance ;
+  rdfs:label "februari" ;
+  bf:isPartOf <https://nago.nl/publicatie/70/jaargang> .
+
+<https://nago.nl/publicatie/70/jaargang>
+  a bf:Instance ;
+  rdfs:label "2006" ;
+  bf:date "2006" ;
+  bf:isPartOf <https://nago.nl/publicatie/70/periodical> .
+
+<https://nago.nl/publicatie/70/periodical>
+  a bf:Instance ;
+  bf:title <https://nago.nl/publicatie/70/periodical/title> ;
+  bf:identifiedBy <https://nago.nl/publicatie/70/periodical/issn> ;
+  bf:provisionActivity <https://nago.nl/publicatie/70/periodical/publication> .
+
+<https://nago.nl/publicatie/70/periodical/title>
+  a bf:Title ;
+  rdfs:label "Jong Holland" .
+
+<https://nago.nl/publicatie/70/periodical/issn>
+  a bf:Issn ;
+  rdf:label "" .
+
+<https://nago.nl/publicatie/70/periodical/publication>
+  a bf:Publication ;
+  bf:agent "" ;
+  bf:place <https://nago.nl/lijsten/353> .
+
