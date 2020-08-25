@@ -1,5 +1,5 @@
 # doel
-De [NAGO database](http://www.nago.nl) van het [Wim Crouwel Instituut](http://www.wci.nl/) bevat informatie over archieven gevormd door grafisch vormgevers. Het bevat archiefmateriaal, maar ook ontwerpen, die als museale objecten worden beschreven en publicatie die als publicaties worden beschreven.
+De [NAGO database](http://www.nago.nl) van het [Wim Crouwel Instituut](http://www.wimcrouwelinstituut.nl/) bevat informatie over archieven gevormd door grafisch vormgevers. Het bevat archiefmateriaal, maar ook ontwerpen, die als museale objecten worden beschreven en publicatie die als publicaties worden beschreven.
 
 PHP-scripten in dit repository converteren csv-files uit de nago-database in directory /input naar ttl-file in /output. Gebruikte namespaces:
 * RiC-O voor _archief_ en _rubriek_ 
