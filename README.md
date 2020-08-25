@@ -17,7 +17,7 @@ php archief2lod.php
 ```
 
 # met dank aan ...
-De ontwikkeling van deze scipten is mogelijk gemaakt door het [Stimuleringsfonds Creatieve Industrie](https://stimuleringsfonds.nl/). Met dank aan [PHPetra](https://github.com/phpetra) waarbij ik mocht afkijken.
+De ontwikkeling van deze scripten is mogelijk gemaakt door het [Stimuleringsfonds Creatieve Industrie](https://stimuleringsfonds.nl/). Met dank aan [PHPetra](https://github.com/phpetra) waarbij ik mocht afkijken.
 
 # todo
 * Data aanvullen en verbeteren in de database
