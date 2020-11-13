@@ -44,7 +44,7 @@ $nagoObjectBaseUrl = 'http://www.wimcrouwelinstituut.nl/nago/object.php?id=%s';
 
 \EasyRdf\RdfNamespace::set('rico', 'https://www.ica.org/standards/RiC/ontology#');
 \EasyRdf\RdfNamespace::set('crm', 'http://www.cidoc-crm.org/cidoc-crm/');
-\EasyRdf\RdfNamespace::set('schema', 'http://schema.org');
+\EasyRdf\RdfNamespace::set('schema', 'http://schema.org/');
 
 foreach ($records as $row) {
     if ($row[20]) { # check "publiceren Y/N"
