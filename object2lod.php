@@ -39,9 +39,12 @@ $nagoBaseUri = 'https://nago.nl/';
 $nagoArchiefBaseUri = $nagoBaseUri.'archief/%s';
 $nagoRubriekBaseUri = $nagoBaseUri.'rubriek/%s';
 $nagoObjectBaseUri = $nagoBaseUri.'object/%s';
+$nagoLijstBaseUri = $nagoBaseUri.'lijsten/%s';
+$nagoObjectBaseUrl = 'http://www.wimcrouwelinstituut.nl/nago/object.php?id=%s';
 
 \EasyRdf\RdfNamespace::set('rico', 'https://www.ica.org/standards/RiC/ontology#');
 \EasyRdf\RdfNamespace::set('crm', 'http://www.cidoc-crm.org/cidoc-crm/');
+\EasyRdf\RdfNamespace::set('schema', 'http://schema.org');
 
 foreach ($records as $row) {
     if ($row[20]) { # check "publiceren Y/N"
@@ -50,8 +53,15 @@ foreach ($records as $row) {
         $objectUri = sprintf($nagoObjectBaseUri, remove_utf8_bom($row[0]));
         $object = $graph->resource($objectUri, 'crm:E22_Human-Made_Object');
 
+        $objectUrl = sprintf($nagoObjectBaseUrl, remove_utf8_bom($row[0]));
+        $x = $graph->resource($objectUrl);
+        $graph->add($object, 'schema:url', $x) ;
+
         # 1"type_titel",
         # 2"soort_object",
+        $objectnameUri = sprintf($nagoLijstBaseUri, remove_utf8_bom($row[2]));
+        $x = $graph->resource($objectnameUri);
+        $graph->add($object, 'crm:P2_has_type', $x) ;
 
         # relate Dimension
         if ($row[3] != "" and $row[3] != "NULL") { #diepte

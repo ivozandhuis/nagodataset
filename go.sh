@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sudo apt install composer
+# composer update
+
 # eerst alle entiteiten
 php archief2lod.php
 php rubriek2lod.php
